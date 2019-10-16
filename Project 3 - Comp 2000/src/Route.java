@@ -6,9 +6,10 @@ import java.util.Scanner;
 
 public class Route {
 	
-	private static int NUM_STATIONS = 17;
-	private static int PASSENGER_LIMIT = 20;
+	private static int NUM_STATIONS = 20;
+	private static int PASSENGER_LIMIT = 4;
 	private static Station[] stationsArr = new Station[NUM_STATIONS];
+	ArrayList<Passenger> allPassengers;
 	/*
 	 * Shows all given stations names and passengers.
 	 */
@@ -89,13 +90,13 @@ public class Route {
 	 */
 	public void setRandomPassengers() {
 		Random rand = new Random();
-		ArrayList<Passenger> allPassengers = new ArrayList<Passenger>();
+		allPassengers = new ArrayList<Passenger>();
 		
 		//sets a random amount of passengers to each station.
 		for(int i = 0; i < stationsArr.length; i++) {
 			int passAmnt = rand.nextInt(PASSENGER_LIMIT);
 			for(int j = 1; j <= passAmnt; j++) {
-				stationsArr[i].addPassenger(randUniquePassenger(i, rand, allPassengers));
+				stationsArr[i].addPassenger(randUniquePassenger(i, rand));
 			}
 		}
 	}
@@ -104,11 +105,14 @@ public class Route {
 	 * Creates a passenger that has a unique ID code and a random station as their destination.
 	 * Destination will not be the current station.
 	 */
-	public Passenger randUniquePassenger(int i, Random rand, ArrayList<Passenger> allPassengers) {
+	public Passenger randUniquePassenger(int i, Random rand) {
 		Passenger pass = new Passenger();
 		
 		//Sets random destination for the passenger
 		Station dest = randDest(rand, i);
+		while (dest == stationsArr[i]) {
+			dest = randDest(rand, i);
+		}
 		pass.setDestination(dest);
 		
 		//Generates a random unique Passenger ID for the passenger.

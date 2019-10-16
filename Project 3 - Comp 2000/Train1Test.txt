@@ -1,0 +1,150 @@
+-----------------------
+Oak Grove
+ Passengers:
+
+93279, Downtown Crossing
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+58287, Back Bay
+83498, Roxbury Crossing
+03834, Massachusetts Avenue
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+04658, Downtown Crossing
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+None
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+None
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+66358, Oak Grove
+94412, Haymarket
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+None
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+None
+========================
+
+-----------------------
+State
+ Passengers:
+
+94839, Maiden Center
+91757, Wellington
+31660, Stony Brook
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+98206, Green Street
+75129, North Station
+70983, Tufts Medical Center
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+33691, Wellington
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+None
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+None
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+None
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+None
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+82827, Back Bay
+89049, Stony Brook
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+06098, Roxbury Crossing
+27016, Green Street
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+37851, Community College
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+None
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+12624, Tufts Medical Center
+========================
+
+

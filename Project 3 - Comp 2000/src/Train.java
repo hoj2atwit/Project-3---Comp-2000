@@ -79,7 +79,7 @@ public class Train {
 	public void dropOff() {
 		if(!passengers.isEmpty()) {
 			Passenger frontPassenger = null;
-			while(!passengers.isEmpty() && (passengers.getFront() != frontPassenger) && (currentStationIndex != 0)) {
+			while(!passengers.isEmpty() && ((passengers.getFront() != frontPassenger) || (currentStationIndex != 0))) {
 				if(frontPassenger == null) {
 					frontPassenger = passengers.getFront();
 				}
