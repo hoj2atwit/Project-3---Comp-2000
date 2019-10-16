@@ -2,7 +2,6 @@
 public class Station {
 	private String name;
 	private LinkedQueue<Passenger> passengers;
-	private boolean hasPassengers = false;
 	
 	public Station(String name, LinkedQueue<Passenger> passengers) {
 		this.name = name;
@@ -23,14 +22,6 @@ public class Station {
 	
 	public void setName(String name) {
 		this.name = name;
-	}
-	
-	public boolean isHasPassengers() {
-		return hasPassengers;
-	}
-	
-	public void setHasPassengers(boolean hasPassengers) {
-		this.hasPassengers = hasPassengers;
 	}
 
 	public LinkedQueue<Passenger> getPassengers() {

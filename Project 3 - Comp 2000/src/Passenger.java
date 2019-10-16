@@ -30,5 +30,12 @@ public class Passenger {
 		setID(String.format("%d%d%d%d%d",IDArr[0], IDArr[1], IDArr[2], IDArr[3], IDArr[4]));
 		
 	}
+	
+	public String toString() {
+		String s = "";
+		s += String.format("%s, %s%n", getID(), getDestination().getName());
+		return s;
+	}
+	
 
 }
