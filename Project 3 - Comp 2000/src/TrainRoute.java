@@ -14,23 +14,65 @@ public class TrainRoute {
 		textWriter2.println(route);
 		textWriter1.flush();
 		textWriter2.flush();
-		textWriter1.println(train1);
-		textWriter2.println(train2);
 		
-		for(int i = 0; i < route.getNumStations(); i++) {
+		textWriter1.printf("TRAIN TIME%n");
+		textWriter1.printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%n");
+		textWriter2.printf("TRAIN TIME%n");
+		textWriter2.printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%n");
+		
+		textWriter1.printf("%s%n", train1);
+		textWriter2.printf("%s%n", train2);
+		
+		for(int i = 1; i <= 100; i++) {
 			System.out.printf("Printing step %d%n", i);
 			
-			train1.pickUpStation();
-			train1.dropOff();
-			textWriter1.println(train1);
-			train1.goNext();
-			textWriter1.println(train1);
+			textWriter1.printf("========================DROPPED OFF %d===========================%n", i);
+			ArrayQueue<Passenger> dropped1 = train1.dropOff();
+			if(!dropped1.isEmpty()) {
+				while(!dropped1.isEmpty()) {
+					textWriter1.printf("%s%n", dropped1.dequeue());
+				}
+			}else {
+				textWriter1.printf("None%n");
+			}
 			
-			train2.pickUpStation();
-			train2.dropOff();
-			textWriter2.println(train2);
+			
+			textWriter1.printf("========================PICKED UP %d===========================%n", i);
+			ArrayQueue<Passenger> picked1 = train1.pickUp();
+			if(!picked1.isEmpty()) {
+				while(!picked1.isEmpty()) {
+					textWriter1.printf("%s", picked1.dequeue());
+				}
+			}else {
+				textWriter1.printf("None%n");
+			}
+			textWriter1.printf("========================MOVE TO NEXT STOP===========================%n");
+			train1.goNext();
+			textWriter1.printf("%s%n", train1);
+			
+			
+			
+			textWriter2.printf("========================DROP OFF %d===========================%n", i);
+			ArrayQueue<Passenger> dropped2 = train2.dropOff();
+			if(!dropped2.isEmpty()) {
+				while(!dropped2.isEmpty()) {
+					textWriter2.printf("%s%n", dropped2.dequeue());
+				}
+			}else {
+				textWriter2.printf("None%n");
+			}
+			textWriter2.printf("========================PICK UP %d===========================%n", i);
+			ArrayQueue<Passenger> picked2 = train2.pickUp();
+			if(!picked2.isEmpty()) {
+				while(!picked2.isEmpty()) {
+					textWriter2.printf("%s%n", picked2.dequeue());
+				}
+			}else {
+				textWriter2.printf("None%n");
+			}
+			textWriter2.printf("========================MOVE TO NEXT STOP===========================%n");
 			train2.goNext();
-			textWriter2.println(train2);
+			textWriter2.printf("%s%n", train2);
 			
 			if(i!=0) {
 				if(i%3 == 0) {
@@ -39,16 +81,24 @@ public class TrainRoute {
 				}
 				if(i % 5 == 0) {
 					route.setRandomPassengers();
-					textWriter1.println(route);
-					textWriter2.println(route);
+					textWriter1.printf("PASSENGER RESTOCK TIME%n");
+					textWriter1.printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%n");
+					textWriter2.printf("PASSENGER RESTOCK TIME%n");
+					textWriter2.printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%n");
+					textWriter1.printf("%s%n", route);
+					textWriter2.printf("%s%n", route);
+					textWriter1.printf("BACK TO TRAINS%n");
+					textWriter1.printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%n");
+					textWriter2.printf("BACK TO TRAINS%n");
+					textWriter2.printf("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%n");
 					textWriter1.flush();
 					textWriter2.flush();
 				}
 			}
 		}
 		
-		textWriter1.println(route);
-		textWriter2.println(route);
+		textWriter1.printf("%s%n", route);
+		textWriter2.printf("%s%n", route);
 		textWriter1.close();
 		textWriter2.close();
 		System.out.printf("Done.");

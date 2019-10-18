@@ -2,13 +2,14 @@ import java.util.ArrayList;
 
 public class Train {
 	private Station[] route;
-	private LinkedQueue<Passenger> passengers;
+	private ArrayQueue<Passenger> passengers;
 	private Station currentStation;
 	private int currentStationIndex;
 	private String name;
 	private ArrayList<Station> passed;
+	private int trainPassLimit = 30;
 	
-	public Train(String name, Station[] route, LinkedQueue<Passenger> passengers) {
+	public Train(String name, Station[] route, ArrayQueue<Passenger> passengers) {
 		this.setRoute(route);
 		this.setPassengers(passengers);
 		setCurrentStation(route[0]);
@@ -18,7 +19,7 @@ public class Train {
 	}
 	
 	public Train(String name, Station[] route) {
-		this(name, route, new LinkedQueue<Passenger>());
+		this(name, route, new ArrayQueue<Passenger>());
 	}
 	
 	public Train(Station[] route) {
@@ -50,13 +51,18 @@ public class Train {
 		
 	}
 	
-	public void pickUpStation() {
+	public ArrayQueue<Passenger> pickUp() {
+		ArrayQueue<Passenger> pickedUp = new ArrayQueue<Passenger>();
 		if(!currentStation.getPassengers().isEmpty()) {
 			Passenger front = null;
-			while(!currentStation.getPassengers().isEmpty() && (currentStation.getPassengers().getFront() != front)) {
+			while((!(currentStation.getPassengers().isEmpty()) && (currentStation.getPassengers().getFront() != front))) {
+				boolean first = false;
+				
 				if(front == null) {
 					front = currentStation.getPassengers().getFront();
+					first = true;
 				}
+				
 				if(!currentStation.getPassengers().isEmpty()) {
 					boolean notEntering = false;
 					for(int i = 0; i < passed.size(); i++) {
@@ -65,35 +71,52 @@ public class Train {
 						}
 					}
 					if(notEntering) {
-						currentStation.getPassengers().enqueue(currentStation.getPassengers().getFront());
-						currentStation.getPassengers().dequeue();
+						currentStation.getPassengers().enqueue(currentStation.getPassengers().dequeue());
 					}else {
-						passengers.enqueue(currentStation.getPassengers().getFront());
-						currentStation.getPassengers().dequeue();
+						Passenger pass = currentStation.getPassengers().dequeue();
+						passengers.enqueue(pass);
+						pickedUp.enqueue(pass);
+						if(first) {
+							front = null;
+						}
 					}
+					
 				}
 			}
 		}
+		return pickedUp;
 	}
 	
-	public void dropOff() {
+	public  ArrayQueue<Passenger> dropOff() {
+		ArrayQueue<Passenger> droppedOff = new ArrayQueue<Passenger>();
 		if(!passengers.isEmpty()) {
 			Passenger frontPassenger = null;
-			while(!passengers.isEmpty() && ((passengers.getFront() != frontPassenger) || (currentStationIndex != 0))) {
+			
+			//Checks through passengers if not empty and if it is not the first station, or if theres a new front passenger.
+			while((!(passengers.isEmpty()) && (currentStationIndex != 0) && (frontPassenger != passengers.getFront()))) {
+				boolean first = false;
+				
+				//Sets a new front passenger if it hasnt been set yet.
 				if(frontPassenger == null) {
 					frontPassenger = passengers.getFront();
+					first = true;
 				}
+				
+				//Removes passenger if they are need to get off at current station.
 				if(passengers.getFront().getDestination().getName().equals(currentStation.getName())) {
-					passengers.dequeue();
-					if(passengers.getFront().equals(frontPassenger)) {
-						frontPassenger = passengers.getFront();
+					droppedOff.enqueue(passengers.dequeue());
+					
+					//Sets the next passenger null if the top most left the queue
+					if(first) {
+						frontPassenger = null;
 					}
 				}else {
-					passengers.enqueue(passengers.getFront());
-					passengers.dequeue();
+					passengers.enqueue(passengers.dequeue());
 				}
+				
 			}
 		}
+		return droppedOff;
 	}
 	
 
@@ -105,11 +128,11 @@ public class Train {
 		this.currentStation = currentStation;
 	}
 
-	public LinkedQueue<Passenger> getPassengers() {
+	public ArrayQueue<Passenger> getPassengers() {
 		return passengers;
 	}
 
-	public void setPassengers(LinkedQueue<Passenger> passengers) {
+	public void setPassengers(ArrayQueue<Passenger> passengers) {
 		this.passengers = passengers;
 	}
 
@@ -131,19 +154,18 @@ public class Train {
 	
 	public String toString() {
 		String s = "";
-		s += String.format("-----------------------%nTrain: %s%nCurrentStation: %s%n%n", name, currentStation.getName());
+		s += String.format("-----------------------%nTrain: %s%nCurrentStation: %s%n%nAll Current Passengers:%n", name, currentStation.getName());
 		if(!passengers.isEmpty()) {
 			Passenger front = passengers.getFront();
-			s += String.format("%s", front);
+			s += String.format("     %s", front);
 			passengers.enqueue(front);
 			passengers.dequeue();
 			while(passengers.getFront() != front) {
-				s += String.format("%s", passengers.getFront());
-				passengers.enqueue(passengers.getFront());
-				passengers.dequeue();
+				s += String.format("     %s", passengers.getFront());
+				passengers.enqueue(passengers.dequeue());
 			}
 		}else {
-			s += String.format("none%n%n");
+			s += String.format("     none%n%n");
 		}
 		s+= String.format("========================%n%n");
 		return s;
@@ -155,6 +177,14 @@ public class Train {
 
 	public void setCurrentStationIndex(int currentStationIndex) {
 		this.currentStationIndex = currentStationIndex;
+	}
+
+	public int getTrainPassLimit() {
+		return trainPassLimit;
+	}
+
+	public void setTrainPassLimit(int trainPassLimit) {
+		this.trainPassLimit = trainPassLimit;
 	}
 	
 	

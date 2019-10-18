@@ -2,52 +2,53 @@
 Oak Grove
  Passengers:
 
-93279, Downtown Crossing
+41839, Ruggles
 ========================
 
 -----------------------
 Maiden Center
  Passengers:
 
-58287, Back Bay
-83498, Roxbury Crossing
-03834, Massachusetts Avenue
+None
 ========================
 
 -----------------------
 Wellington
  Passengers:
 
-04658, Downtown Crossing
+None
 ========================
 
 -----------------------
 Assembly
  Passengers:
 
-None
+52361, North Station
+66474, Ruggles
 ========================
 
 -----------------------
 Sullivan Square
  Passengers:
 
-None
+26739, State
+03550, Back Bay
 ========================
 
 -----------------------
 Community College
  Passengers:
 
-66358, Oak Grove
-94412, Haymarket
+None
 ========================
 
 -----------------------
 North Station
  Passengers:
 
-None
+43799, Sullivan Square
+39301, State
+97575, Roxbury Crossing
 ========================
 
 -----------------------
@@ -61,25 +62,22 @@ None
 State
  Passengers:
 
-94839, Maiden Center
-91757, Wellington
-31660, Stony Brook
+None
 ========================
 
 -----------------------
 Downtown Crossing
  Passengers:
 
-98206, Green Street
-75129, North Station
-70983, Tufts Medical Center
+84597, Chinatown
+65428, Haymarket
 ========================
 
 -----------------------
 Chinatown
  Passengers:
 
-33691, Wellington
+None
 ========================
 
 -----------------------
@@ -100,51 +98,59 @@ None
 Massachusetts Avenue
  Passengers:
 
-None
+09525, Haymarket
+92098, Tufts Medical Center
+72928, Haymarket
 ========================
 
 -----------------------
 Ruggles
  Passengers:
 
-None
+02234, Green Street
 ========================
 
 -----------------------
 Roxbury Crossing
  Passengers:
 
-82827, Back Bay
-89049, Stony Brook
+00494, Downtown Crossing
+76051, North Station
+12020, Jackson Square
 ========================
 
 -----------------------
 Jackson Square
  Passengers:
 
-06098, Roxbury Crossing
-27016, Green Street
+38317, North Station
+64522, Oak Grove
+88919, Ruggles
 ========================
 
 -----------------------
 Stony Brook
  Passengers:
 
-37851, Community College
+None
 ========================
 
 -----------------------
 Green Street
  Passengers:
 
-None
+83248, Sullivan Square
+19618, Assembly
+74526, Wellington
 ========================
 
 -----------------------
 Forest Hills
  Passengers:
 
-12624, Tufts Medical Center
+12096, Roxbury Crossing
+94538, Massachusetts Avenue
+65030, Tufts Medical Center
 ========================
 
 

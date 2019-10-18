@@ -32,7 +32,9 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 	public void enqueue(T newEntry) {
 		backIndex = (backIndex + 1) % capacity;
 		queueArray[backIndex] = newEntry;
-		ensureCapacity();
+		if(backIndex >= capacity-1) {
+			ensureCapacity();
+		}
 	}
 
 	/**
