@@ -2,7 +2,7 @@
 Oak Grove
  Passengers:
 
-41839, Ruggles
+73732, Tufts Medical Center
 ========================
 
 -----------------------
@@ -16,46 +16,47 @@ None
 Wellington
  Passengers:
 
-None
+28018, Forest Hills
 ========================
 
 -----------------------
 Assembly
  Passengers:
 
-52361, North Station
-66474, Ruggles
+51547, Chinatown
+20457, Maiden Center
 ========================
 
 -----------------------
 Sullivan Square
  Passengers:
 
-26739, State
-03550, Back Bay
+72356, Haymarket
+11527, Chinatown
+62964, Wellington
 ========================
 
 -----------------------
 Community College
  Passengers:
 
-None
+75084, Ruggles
 ========================
 
 -----------------------
 North Station
  Passengers:
 
-43799, Sullivan Square
-39301, State
-97575, Roxbury Crossing
+46581, Downtown Crossing
+44530, Tufts Medical Center
 ========================
 
 -----------------------
 Haymarket
  Passengers:
 
-None
+89481, Community College
+60594, Green Street
 ========================
 
 -----------------------
@@ -69,63 +70,3591 @@ None
 Downtown Crossing
  Passengers:
 
-84597, Chinatown
-65428, Haymarket
+97281, Sullivan Square
+08566, Stony Brook
 ========================
 
 -----------------------
 Chinatown
  Passengers:
 
-None
+98388, Stony Brook
+82182, Ruggles
 ========================
 
 -----------------------
 Tufts Medical Center
  Passengers:
 
-None
+29025, Wellington
 ========================
 
 -----------------------
 Back Bay
  Passengers:
 
-None
+37940, Jackson Square
+21478, Tufts Medical Center
+18081, North Station
 ========================
 
 -----------------------
 Massachusetts Avenue
  Passengers:
 
-09525, Haymarket
-92098, Tufts Medical Center
-72928, Haymarket
+85119, Green Street
+30663, Tufts Medical Center
+68099, State
 ========================
 
 -----------------------
 Ruggles
  Passengers:
 
-02234, Green Street
+83566, Forest Hills
 ========================
 
 -----------------------
 Roxbury Crossing
  Passengers:
 
-00494, Downtown Crossing
-76051, North Station
-12020, Jackson Square
+None
 ========================
 
 -----------------------
 Jackson Square
  Passengers:
 
-38317, North Station
-64522, Oak Grove
-88919, Ruggles
+78356, Sullivan Square
+33915, Roxbury Crossing
+98663, Ruggles
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+83938, Ruggles
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+28455, Ruggles
+31762, State
+80188, Assembly
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+98037, North Station
+32587, Assembly
+========================
+
+
+TRAIN TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Train: Backwards Train
+CurrentStation: Forest Hills
+
+All Current Passengers:
+     none
+
+========================
+
+
+========================DROP OFF 1===========================
+None
+========================PICK UP 1===========================
+98037, North Station
+
+32587, Assembly
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Green Street
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+========================
+
+
+========================DROP OFF 2===========================
+None
+========================PICK UP 2===========================
+28455, Ruggles
+
+31762, State
+
+80188, Assembly
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Stony Brook
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     28455, Ruggles
+     31762, State
+     80188, Assembly
+========================
+
+
+========================DROP OFF 3===========================
+None
+========================PICK UP 3===========================
+83938, Ruggles
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Jackson Square
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     28455, Ruggles
+     31762, State
+     80188, Assembly
+     83938, Ruggles
+========================
+
+
+========================DROP OFF 4===========================
+None
+========================PICK UP 4===========================
+78356, Sullivan Square
+
+33915, Roxbury Crossing
+
+98663, Ruggles
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Roxbury Crossing
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     28455, Ruggles
+     31762, State
+     80188, Assembly
+     83938, Ruggles
+     78356, Sullivan Square
+     33915, Roxbury Crossing
+     98663, Ruggles
+========================
+
+
+========================DROP OFF 5===========================
+33915, Roxbury Crossing
+
+========================PICK UP 5===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Ruggles
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     28455, Ruggles
+     31762, State
+     80188, Assembly
+     83938, Ruggles
+     78356, Sullivan Square
+     98663, Ruggles
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+None
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+77389, Tufts Medical Center
+12337, Stony Brook
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+20457, Maiden Center
+23855, Roxbury Crossing
+51002, Chinatown
+04768, Ruggles
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+62964, Wellington
+33561, North Station
+01889, Assembly
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+75084, Ruggles
+08678, Assembly
+44745, Chinatown
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+46581, Downtown Crossing
+44530, Tufts Medical Center
+67059, State
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+89481, Community College
+60594, Green Street
+87270, Maiden Center
+26210, Community College
+21719, Ruggles
+========================
+
+-----------------------
+State
+ Passengers:
+
+39489, Back Bay
+39949, Massachusetts Avenue
+41082, Massachusetts Avenue
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+97281, Sullivan Square
+08566, Stony Brook
+31476, Massachusetts Avenue
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+98388, Stony Brook
+82182, Ruggles
+21684, Massachusetts Avenue
+27653, Oak Grove
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+29025, Wellington
+98272, Ruggles
+60392, Maiden Center
+23449, Forest Hills
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+37940, Jackson Square
+21478, Tufts Medical Center
+18081, North Station
+64155, Ruggles
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+85119, Green Street
+30663, Tufts Medical Center
+68099, State
+39385, Ruggles
+76633, Oak Grove
+24142, Assembly
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+83566, Forest Hills
+74785, Massachusetts Avenue
+84351, Wellington
+34225, Community College
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+None
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+75551, Oak Grove
+09054, Tufts Medical Center
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+59997, Jackson Square
+31371, Chinatown
+01505, Roxbury Crossing
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+None
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 6===========================
+28455, Ruggles
+
+83938, Ruggles
+
+98663, Ruggles
+
+========================PICK UP 6===========================
+74785, Massachusetts Avenue
+
+84351, Wellington
+
+34225, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Massachusetts Avenue
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     31762, State
+     80188, Assembly
+     78356, Sullivan Square
+     74785, Massachusetts Avenue
+     84351, Wellington
+     34225, Community College
+========================
+
+
+========================DROP OFF 7===========================
+74785, Massachusetts Avenue
+
+========================PICK UP 7===========================
+30663, Tufts Medical Center
+
+68099, State
+
+76633, Oak Grove
+
+24142, Assembly
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Back Bay
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     31762, State
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     30663, Tufts Medical Center
+     68099, State
+     76633, Oak Grove
+     24142, Assembly
+========================
+
+
+========================DROP OFF 8===========================
+None
+========================PICK UP 8===========================
+21478, Tufts Medical Center
+
+18081, North Station
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Tufts Medical Center
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     31762, State
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     30663, Tufts Medical Center
+     68099, State
+     76633, Oak Grove
+     24142, Assembly
+     21478, Tufts Medical Center
+     18081, North Station
+========================
+
+
+========================DROP OFF 9===========================
+30663, Tufts Medical Center
+
+21478, Tufts Medical Center
+
+========================PICK UP 9===========================
+29025, Wellington
+
+60392, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Chinatown
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     31762, State
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     68099, State
+     76633, Oak Grove
+     24142, Assembly
+     18081, North Station
+     29025, Wellington
+     60392, Maiden Center
+========================
+
+
+========================DROP OFF 10===========================
+None
+========================PICK UP 10===========================
+27653, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Downtown Crossing
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     31762, State
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     68099, State
+     76633, Oak Grove
+     24142, Assembly
+     18081, North Station
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+13699, Green Street
+01796, Assembly
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+77389, Tufts Medical Center
+12337, Stony Brook
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+20457, Maiden Center
+23855, Roxbury Crossing
+51002, Chinatown
+04768, Ruggles
+83080, Back Bay
+84998, Massachusetts Avenue
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+62964, Wellington
+33561, North Station
+01889, Assembly
+94590, Oak Grove
+24810, Maiden Center
+42508, Wellington
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+08678, Assembly
+22183, Oak Grove
+22056, Roxbury Crossing
+54495, Oak Grove
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+80811, Jackson Square
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+89481, Community College
+87270, Maiden Center
+26210, Community College
+========================
+
+-----------------------
+State
+ Passengers:
+
+24454, Downtown Crossing
+89233, Roxbury Crossing
+68113, Back Bay
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+97281, Sullivan Square
+31471, Massachusetts Avenue
+99395, Assembly
+49768, Stony Brook
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+98388, Stony Brook
+82182, Ruggles
+21684, Massachusetts Avenue
+41668, Stony Brook
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+98272, Ruggles
+23449, Forest Hills
+78993, Chinatown
+94499, Forest Hills
+76986, Maiden Center
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+37940, Jackson Square
+64155, Ruggles
+27369, Oak Grove
+02679, Community College
+99601, Haymarket
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+85119, Green Street
+39385, Ruggles
+33804, Stony Brook
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+83566, Forest Hills
+95373, Back Bay
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+00586, Jackson Square
+29431, Wellington
+82646, State
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+75551, Oak Grove
+09054, Tufts Medical Center
+16469, Haymarket
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+59997, Jackson Square
+31371, Chinatown
+01505, Roxbury Crossing
+95787, Oak Grove
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+53742, Tufts Medical Center
+59302, Back Bay
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 11===========================
+None
+========================PICK UP 11===========================
+97281, Sullivan Square
+
+99395, Assembly
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: State
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     31762, State
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     68099, State
+     76633, Oak Grove
+     24142, Assembly
+     18081, North Station
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     97281, Sullivan Square
+     99395, Assembly
+========================
+
+
+========================DROP OFF 12===========================
+31762, State
+
+68099, State
+
+========================PICK UP 12===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Haymarket
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     76633, Oak Grove
+     24142, Assembly
+     18081, North Station
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     97281, Sullivan Square
+     99395, Assembly
+========================
+
+
+========================DROP OFF 13===========================
+None
+========================PICK UP 13===========================
+89481, Community College
+
+87270, Maiden Center
+
+26210, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: North Station
+
+All Current Passengers:
+     98037, North Station
+     32587, Assembly
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     76633, Oak Grove
+     24142, Assembly
+     18081, North Station
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     97281, Sullivan Square
+     99395, Assembly
+     89481, Community College
+     87270, Maiden Center
+     26210, Community College
+========================
+
+
+========================DROP OFF 14===========================
+98037, North Station
+
+18081, North Station
+
+========================PICK UP 14===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Community College
+
+All Current Passengers:
+     32587, Assembly
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     34225, Community College
+     76633, Oak Grove
+     24142, Assembly
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     97281, Sullivan Square
+     99395, Assembly
+     89481, Community College
+     87270, Maiden Center
+     26210, Community College
+========================
+
+
+========================DROP OFF 15===========================
+34225, Community College
+
+89481, Community College
+
+26210, Community College
+
+========================PICK UP 15===========================
+08678, Assembly
+
+22183, Oak Grove
+
+54495, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Sullivan Square
+
+All Current Passengers:
+     32587, Assembly
+     80188, Assembly
+     78356, Sullivan Square
+     84351, Wellington
+     76633, Oak Grove
+     24142, Assembly
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     97281, Sullivan Square
+     99395, Assembly
+     87270, Maiden Center
+     08678, Assembly
+     22183, Oak Grove
+     54495, Oak Grove
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+13699, Green Street
+01796, Assembly
+09702, Back Bay
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+77389, Tufts Medical Center
+12337, Stony Brook
+85541, Jackson Square
+85127, Green Street
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+20457, Maiden Center
+23855, Roxbury Crossing
+51002, Chinatown
+04768, Ruggles
+83080, Back Bay
+84998, Massachusetts Avenue
+59795, Oak Grove
+02032, Oak Grove
+91836, Community College
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+62964, Wellington
+33561, North Station
+01889, Assembly
+94590, Oak Grove
+24810, Maiden Center
+42508, Wellington
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+22056, Roxbury Crossing
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+80811, Jackson Square
+84324, Back Bay
+94041, Forest Hills
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+02865, Jackson Square
+64068, Wellington
+========================
+
+-----------------------
+State
+ Passengers:
+
+24454, Downtown Crossing
+89233, Roxbury Crossing
+68113, Back Bay
+90594, Chinatown
+96986, Green Street
+24446, Ruggles
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+31471, Massachusetts Avenue
+49768, Stony Brook
+69463, Tufts Medical Center
+74784, Oak Grove
+44634, North Station
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+63282, Green Street
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+78993, Chinatown
+76986, Maiden Center
+72788, Maiden Center
+57853, State
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+27369, Oak Grove
+02679, Community College
+99601, Haymarket
+39944, Community College
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+51862, Oak Grove
+73633, Stony Brook
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+95373, Back Bay
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+00586, Jackson Square
+29431, Wellington
+82646, State
+94003, Maiden Center
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+75551, Oak Grove
+09054, Tufts Medical Center
+16469, Haymarket
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+59997, Jackson Square
+31371, Chinatown
+01505, Roxbury Crossing
+95787, Oak Grove
+98526, Sullivan Square
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+53742, Tufts Medical Center
+59302, Back Bay
+32247, Roxbury Crossing
+76466, State
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 16===========================
+78356, Sullivan Square
+
+97281, Sullivan Square
+
+========================PICK UP 16===========================
+62964, Wellington
+
+01889, Assembly
+
+94590, Oak Grove
+
+24810, Maiden Center
+
+42508, Wellington
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Assembly
+
+All Current Passengers:
+     32587, Assembly
+     80188, Assembly
+     84351, Wellington
+     76633, Oak Grove
+     24142, Assembly
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     99395, Assembly
+     87270, Maiden Center
+     08678, Assembly
+     22183, Oak Grove
+     54495, Oak Grove
+     62964, Wellington
+     01889, Assembly
+     94590, Oak Grove
+     24810, Maiden Center
+     42508, Wellington
+========================
+
+
+========================DROP OFF 17===========================
+32587, Assembly
+
+80188, Assembly
+
+24142, Assembly
+
+99395, Assembly
+
+08678, Assembly
+
+01889, Assembly
+
+========================PICK UP 17===========================
+20457, Maiden Center
+
+59795, Oak Grove
+
+02032, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Wellington
+
+All Current Passengers:
+     84351, Wellington
+     76633, Oak Grove
+     29025, Wellington
+     60392, Maiden Center
+     27653, Oak Grove
+     87270, Maiden Center
+     22183, Oak Grove
+     54495, Oak Grove
+     62964, Wellington
+     94590, Oak Grove
+     24810, Maiden Center
+     42508, Wellington
+     20457, Maiden Center
+     59795, Oak Grove
+     02032, Oak Grove
+========================
+
+
+========================DROP OFF 18===========================
+84351, Wellington
+
+29025, Wellington
+
+62964, Wellington
+
+42508, Wellington
+
+========================PICK UP 18===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Maiden Center
+
+All Current Passengers:
+     76633, Oak Grove
+     60392, Maiden Center
+     27653, Oak Grove
+     87270, Maiden Center
+     22183, Oak Grove
+     54495, Oak Grove
+     94590, Oak Grove
+     24810, Maiden Center
+     20457, Maiden Center
+     59795, Oak Grove
+     02032, Oak Grove
+========================
+
+
+========================DROP OFF 19===========================
+60392, Maiden Center
+
+87270, Maiden Center
+
+24810, Maiden Center
+
+20457, Maiden Center
+
+========================PICK UP 19===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Oak Grove
+
+All Current Passengers:
+     76633, Oak Grove
+     27653, Oak Grove
+     22183, Oak Grove
+     54495, Oak Grove
+     94590, Oak Grove
+     59795, Oak Grove
+     02032, Oak Grove
+========================
+
+
+========================DROP OFF 20===========================
+76633, Oak Grove
+
+27653, Oak Grove
+
+22183, Oak Grove
+
+54495, Oak Grove
+
+94590, Oak Grove
+
+59795, Oak Grove
+
+02032, Oak Grove
+
+========================PICK UP 20===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Maiden Center
+
+All Current Passengers:
+     none
+
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+13699, Green Street
+01796, Assembly
+09702, Back Bay
+69202, Green Street
+79627, Roxbury Crossing
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+77389, Tufts Medical Center
+12337, Stony Brook
+85541, Jackson Square
+85127, Green Street
+29787, Haymarket
+01727, State
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+23855, Roxbury Crossing
+51002, Chinatown
+04768, Ruggles
+83080, Back Bay
+84998, Massachusetts Avenue
+91836, Community College
+25227, Tufts Medical Center
+63094, Maiden Center
+71488, Chinatown
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+33561, North Station
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+22056, Roxbury Crossing
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+80811, Jackson Square
+84324, Back Bay
+94041, Forest Hills
+20483, Massachusetts Avenue
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+02865, Jackson Square
+64068, Wellington
+16195, Stony Brook
+48998, State
+95686, Ruggles
+========================
+
+-----------------------
+State
+ Passengers:
+
+24454, Downtown Crossing
+89233, Roxbury Crossing
+68113, Back Bay
+90594, Chinatown
+96986, Green Street
+24446, Ruggles
+57012, Ruggles
+66204, Ruggles
+91570, Community College
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+31471, Massachusetts Avenue
+49768, Stony Brook
+69463, Tufts Medical Center
+74784, Oak Grove
+44634, North Station
+27542, Ruggles
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+63282, Green Street
+57019, Massachusetts Avenue
+79161, Massachusetts Avenue
+75914, Forest Hills
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+78993, Chinatown
+76986, Maiden Center
+72788, Maiden Center
+57853, State
+14755, Forest Hills
+03464, Chinatown
+44905, North Station
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+27369, Oak Grove
+02679, Community College
+99601, Haymarket
+39944, Community College
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+51862, Oak Grove
+73633, Stony Brook
+49747, Community College
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+95373, Back Bay
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+29431, Wellington
+82646, State
+94003, Maiden Center
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+75551, Oak Grove
+09054, Tufts Medical Center
+16469, Haymarket
+21533, Green Street
+15709, Oak Grove
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+59997, Jackson Square
+31371, Chinatown
+01505, Roxbury Crossing
+95787, Oak Grove
+98526, Sullivan Square
+56773, Maiden Center
+10049, Maiden Center
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+53742, Tufts Medical Center
+59302, Back Bay
+32247, Roxbury Crossing
+76466, State
+30791, Roxbury Crossing
+10523, Oak Grove
+19519, Community College
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 21===========================
+None
+========================PICK UP 21===========================
+13699, Green Street
+
+01796, Assembly
+
+09702, Back Bay
+
+69202, Green Street
+
+79627, Roxbury Crossing
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Wellington
+
+All Current Passengers:
+     13699, Green Street
+     01796, Assembly
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+========================
+
+
+========================DROP OFF 22===========================
+None
+========================PICK UP 22===========================
+77389, Tufts Medical Center
+
+12337, Stony Brook
+
+85541, Jackson Square
+
+85127, Green Street
+
+29787, Haymarket
+
+01727, State
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Assembly
+
+All Current Passengers:
+     13699, Green Street
+     01796, Assembly
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     29787, Haymarket
+     01727, State
+========================
+
+
+========================DROP OFF 23===========================
+01796, Assembly
+
+========================PICK UP 23===========================
+23855, Roxbury Crossing
+
+51002, Chinatown
+
+04768, Ruggles
+
+83080, Back Bay
+
+84998, Massachusetts Avenue
+
+91836, Community College
+
+25227, Tufts Medical Center
+
+71488, Chinatown
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Sullivan Square
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     29787, Haymarket
+     01727, State
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     91836, Community College
+     25227, Tufts Medical Center
+     71488, Chinatown
+========================
+
+
+========================DROP OFF 24===========================
+None
+========================PICK UP 24===========================
+33561, North Station
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Community College
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     29787, Haymarket
+     01727, State
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     91836, Community College
+     25227, Tufts Medical Center
+     71488, Chinatown
+     33561, North Station
+========================
+
+
+========================DROP OFF 25===========================
+91836, Community College
+
+========================PICK UP 25===========================
+22056, Roxbury Crossing
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: North Station
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     29787, Haymarket
+     01727, State
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     25227, Tufts Medical Center
+     71488, Chinatown
+     33561, North Station
+     22056, Roxbury Crossing
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+83790, Chinatown
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+84093, Downtown Crossing
+79306, Tufts Medical Center
+26837, Sullivan Square
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+63094, Maiden Center
+40140, Oak Grove
+66658, Jackson Square
+67532, Tufts Medical Center
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+None
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+93259, Massachusetts Avenue
+18728, Oak Grove
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+80811, Jackson Square
+84324, Back Bay
+94041, Forest Hills
+20483, Massachusetts Avenue
+74432, Massachusetts Avenue
+89648, Chinatown
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+02865, Jackson Square
+64068, Wellington
+16195, Stony Brook
+48998, State
+95686, Ruggles
+68448, State
+82290, Ruggles
+========================
+
+-----------------------
+State
+ Passengers:
+
+24454, Downtown Crossing
+89233, Roxbury Crossing
+68113, Back Bay
+90594, Chinatown
+96986, Green Street
+24446, Ruggles
+57012, Ruggles
+66204, Ruggles
+91570, Community College
+35204, Community College
+89459, Haymarket
+20105, Jackson Square
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+31471, Massachusetts Avenue
+49768, Stony Brook
+69463, Tufts Medical Center
+74784, Oak Grove
+44634, North Station
+27542, Ruggles
+40176, North Station
+63958, Tufts Medical Center
+88543, Chinatown
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+63282, Green Street
+57019, Massachusetts Avenue
+79161, Massachusetts Avenue
+75914, Forest Hills
+14241, Maiden Center
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+78993, Chinatown
+76986, Maiden Center
+72788, Maiden Center
+57853, State
+14755, Forest Hills
+03464, Chinatown
+44905, North Station
+53440, Community College
+43289, Back Bay
+52108, Oak Grove
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+27369, Oak Grove
+02679, Community College
+99601, Haymarket
+39944, Community College
+13945, Community College
+20437, Ruggles
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+51862, Oak Grove
+73633, Stony Brook
+49747, Community College
+36401, State
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+67992, Tufts Medical Center
+88515, Sullivan Square
+56416, Massachusetts Avenue
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+None
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+21533, Green Street
+21317, Back Bay
+16884, Stony Brook
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+83102, Assembly
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+34575, Assembly
+02678, Tufts Medical Center
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 26===========================
+33561, North Station
+
+========================PICK UP 26===========================
+80811, Jackson Square
+
+84324, Back Bay
+
+94041, Forest Hills
+
+20483, Massachusetts Avenue
+
+74432, Massachusetts Avenue
+
+89648, Chinatown
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Haymarket
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     29787, Haymarket
+     01727, State
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     25227, Tufts Medical Center
+     71488, Chinatown
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     84324, Back Bay
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     89648, Chinatown
+========================
+
+
+========================DROP OFF 27===========================
+29787, Haymarket
+
+========================PICK UP 27===========================
+02865, Jackson Square
+
+16195, Stony Brook
+
+48998, State
+
+95686, Ruggles
+
+68448, State
+
+82290, Ruggles
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: State
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     01727, State
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     25227, Tufts Medical Center
+     71488, Chinatown
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     84324, Back Bay
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     89648, Chinatown
+     02865, Jackson Square
+     16195, Stony Brook
+     48998, State
+     95686, Ruggles
+     68448, State
+     82290, Ruggles
+========================
+
+
+========================DROP OFF 28===========================
+01727, State
+
+48998, State
+
+68448, State
+
+========================PICK UP 28===========================
+24454, Downtown Crossing
+
+89233, Roxbury Crossing
+
+68113, Back Bay
+
+90594, Chinatown
+
+96986, Green Street
+
+24446, Ruggles
+
+57012, Ruggles
+
+66204, Ruggles
+
+20105, Jackson Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Downtown Crossing
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     25227, Tufts Medical Center
+     71488, Chinatown
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     84324, Back Bay
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     89648, Chinatown
+     02865, Jackson Square
+     16195, Stony Brook
+     95686, Ruggles
+     82290, Ruggles
+     24454, Downtown Crossing
+     89233, Roxbury Crossing
+     68113, Back Bay
+     90594, Chinatown
+     96986, Green Street
+     24446, Ruggles
+     57012, Ruggles
+     66204, Ruggles
+     20105, Jackson Square
+========================
+
+
+========================DROP OFF 29===========================
+24454, Downtown Crossing
+
+========================PICK UP 29===========================
+31471, Massachusetts Avenue
+
+49768, Stony Brook
+
+69463, Tufts Medical Center
+
+74784, Oak Grove
+
+27542, Ruggles
+
+63958, Tufts Medical Center
+
+88543, Chinatown
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Chinatown
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     51002, Chinatown
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     25227, Tufts Medical Center
+     71488, Chinatown
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     84324, Back Bay
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     89648, Chinatown
+     02865, Jackson Square
+     16195, Stony Brook
+     95686, Ruggles
+     82290, Ruggles
+     89233, Roxbury Crossing
+     68113, Back Bay
+     90594, Chinatown
+     96986, Green Street
+     24446, Ruggles
+     57012, Ruggles
+     66204, Ruggles
+     20105, Jackson Square
+     31471, Massachusetts Avenue
+     49768, Stony Brook
+     69463, Tufts Medical Center
+     74784, Oak Grove
+     27542, Ruggles
+     63958, Tufts Medical Center
+     88543, Chinatown
+========================
+
+
+========================DROP OFF 30===========================
+51002, Chinatown
+
+71488, Chinatown
+
+89648, Chinatown
+
+90594, Chinatown
+
+88543, Chinatown
+
+========================PICK UP 30===========================
+63282, Green Street
+
+57019, Massachusetts Avenue
+
+79161, Massachusetts Avenue
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Tufts Medical Center
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     77389, Tufts Medical Center
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     25227, Tufts Medical Center
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     84324, Back Bay
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     02865, Jackson Square
+     16195, Stony Brook
+     95686, Ruggles
+     82290, Ruggles
+     89233, Roxbury Crossing
+     68113, Back Bay
+     96986, Green Street
+     24446, Ruggles
+     57012, Ruggles
+     66204, Ruggles
+     20105, Jackson Square
+     31471, Massachusetts Avenue
+     49768, Stony Brook
+     69463, Tufts Medical Center
+     74784, Oak Grove
+     27542, Ruggles
+     63958, Tufts Medical Center
+     63282, Green Street
+     57019, Massachusetts Avenue
+     79161, Massachusetts Avenue
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+83790, Chinatown
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+84093, Downtown Crossing
+79306, Tufts Medical Center
+26837, Sullivan Square
+72322, Community College
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+63094, Maiden Center
+40140, Oak Grove
+66658, Jackson Square
+67532, Tufts Medical Center
+09353, Maiden Center
+94990, Ruggles
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+48503, Green Street
+09609, Massachusetts Avenue
+85380, Tufts Medical Center
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+93259, Massachusetts Avenue
+18728, Oak Grove
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+98079, Haymarket
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+64068, Wellington
+37865, Oak Grove
+51832, State
+========================
+
+-----------------------
+State
+ Passengers:
+
+91570, Community College
+35204, Community College
+89459, Haymarket
+07526, Back Bay
+06138, Jackson Square
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+09341, Wellington
+84436, Jackson Square
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+95415, Wellington
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+43289, Back Bay
+63548, Ruggles
+78469, Back Bay
+74308, Sullivan Square
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+20437, Ruggles
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+73633, Stony Brook
+40319, Ruggles
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+67992, Tufts Medical Center
+88515, Sullivan Square
+56416, Massachusetts Avenue
+55858, Chinatown
+02538, Tufts Medical Center
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+87035, Jackson Square
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+21533, Green Street
+21317, Back Bay
+16884, Stony Brook
+11013, Community College
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+83102, Assembly
+11521, Oak Grove
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+34575, Assembly
+02678, Tufts Medical Center
+06967, Haymarket
+73389, Community College
+86778, Jackson Square
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 31===========================
+77389, Tufts Medical Center
+
+25227, Tufts Medical Center
+
+69463, Tufts Medical Center
+
+63958, Tufts Medical Center
+
+========================PICK UP 31===========================
+43289, Back Bay
+
+63548, Ruggles
+
+78469, Back Bay
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Back Bay
+
+All Current Passengers:
+     13699, Green Street
+     09702, Back Bay
+     69202, Green Street
+     79627, Roxbury Crossing
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     04768, Ruggles
+     83080, Back Bay
+     84998, Massachusetts Avenue
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     84324, Back Bay
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     02865, Jackson Square
+     16195, Stony Brook
+     95686, Ruggles
+     82290, Ruggles
+     89233, Roxbury Crossing
+     68113, Back Bay
+     96986, Green Street
+     24446, Ruggles
+     57012, Ruggles
+     66204, Ruggles
+     20105, Jackson Square
+     31471, Massachusetts Avenue
+     49768, Stony Brook
+     74784, Oak Grove
+     27542, Ruggles
+     63282, Green Street
+     57019, Massachusetts Avenue
+     79161, Massachusetts Avenue
+     43289, Back Bay
+     63548, Ruggles
+     78469, Back Bay
+========================
+
+
+========================DROP OFF 32===========================
+09702, Back Bay
+
+83080, Back Bay
+
+84324, Back Bay
+
+68113, Back Bay
+
+43289, Back Bay
+
+78469, Back Bay
+
+========================PICK UP 32===========================
+20437, Ruggles
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Massachusetts Avenue
+
+All Current Passengers:
+     13699, Green Street
+     69202, Green Street
+     79627, Roxbury Crossing
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     04768, Ruggles
+     84998, Massachusetts Avenue
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     94041, Forest Hills
+     20483, Massachusetts Avenue
+     74432, Massachusetts Avenue
+     02865, Jackson Square
+     16195, Stony Brook
+     95686, Ruggles
+     82290, Ruggles
+     89233, Roxbury Crossing
+     96986, Green Street
+     24446, Ruggles
+     57012, Ruggles
+     66204, Ruggles
+     20105, Jackson Square
+     31471, Massachusetts Avenue
+     49768, Stony Brook
+     74784, Oak Grove
+     27542, Ruggles
+     63282, Green Street
+     57019, Massachusetts Avenue
+     79161, Massachusetts Avenue
+     63548, Ruggles
+     20437, Ruggles
+========================
+
+
+========================DROP OFF 33===========================
+84998, Massachusetts Avenue
+
+20483, Massachusetts Avenue
+
+74432, Massachusetts Avenue
+
+31471, Massachusetts Avenue
+
+57019, Massachusetts Avenue
+
+79161, Massachusetts Avenue
+
+========================PICK UP 33===========================
+73633, Stony Brook
+
+40319, Ruggles
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Ruggles
+
+All Current Passengers:
+     13699, Green Street
+     69202, Green Street
+     79627, Roxbury Crossing
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     04768, Ruggles
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     94041, Forest Hills
+     02865, Jackson Square
+     16195, Stony Brook
+     95686, Ruggles
+     82290, Ruggles
+     89233, Roxbury Crossing
+     96986, Green Street
+     24446, Ruggles
+     57012, Ruggles
+     66204, Ruggles
+     20105, Jackson Square
+     49768, Stony Brook
+     74784, Oak Grove
+     27542, Ruggles
+     63282, Green Street
+     63548, Ruggles
+     20437, Ruggles
+     73633, Stony Brook
+     40319, Ruggles
+========================
+
+
+========================DROP OFF 34===========================
+04768, Ruggles
+
+95686, Ruggles
+
+82290, Ruggles
+
+24446, Ruggles
+
+57012, Ruggles
+
+66204, Ruggles
+
+27542, Ruggles
+
+63548, Ruggles
+
+20437, Ruggles
+
+40319, Ruggles
+
+========================PICK UP 34===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Roxbury Crossing
+
+All Current Passengers:
+     13699, Green Street
+     69202, Green Street
+     79627, Roxbury Crossing
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     23855, Roxbury Crossing
+     22056, Roxbury Crossing
+     80811, Jackson Square
+     94041, Forest Hills
+     02865, Jackson Square
+     16195, Stony Brook
+     89233, Roxbury Crossing
+     96986, Green Street
+     20105, Jackson Square
+     49768, Stony Brook
+     74784, Oak Grove
+     63282, Green Street
+     73633, Stony Brook
+========================
+
+
+========================DROP OFF 35===========================
+79627, Roxbury Crossing
+
+23855, Roxbury Crossing
+
+22056, Roxbury Crossing
+
+89233, Roxbury Crossing
+
+========================PICK UP 35===========================
+87035, Jackson Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Jackson Square
+
+All Current Passengers:
+     13699, Green Street
+     69202, Green Street
+     12337, Stony Brook
+     85541, Jackson Square
+     85127, Green Street
+     80811, Jackson Square
+     94041, Forest Hills
+     02865, Jackson Square
+     16195, Stony Brook
+     96986, Green Street
+     20105, Jackson Square
+     49768, Stony Brook
+     74784, Oak Grove
+     63282, Green Street
+     73633, Stony Brook
+     87035, Jackson Square
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+83790, Chinatown
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+84093, Downtown Crossing
+79306, Tufts Medical Center
+26837, Sullivan Square
+72322, Community College
+79222, Oak Grove
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+63094, Maiden Center
+40140, Oak Grove
+66658, Jackson Square
+67532, Tufts Medical Center
+09353, Maiden Center
+94990, Ruggles
+54497, Chinatown
+86252, Community College
+27584, North Station
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+48503, Green Street
+09609, Massachusetts Avenue
+85380, Tufts Medical Center
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+93259, Massachusetts Avenue
+59195, Green Street
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+98079, Haymarket
+35069, Chinatown
+15539, Tufts Medical Center
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+51832, State
+42531, Oak Grove
+82726, Chinatown
+========================
+
+-----------------------
+State
+ Passengers:
+
+07526, Back Bay
+06138, Jackson Square
+54476, Oak Grove
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+09341, Wellington
+84436, Jackson Square
+84749, Sullivan Square
+51570, Tufts Medical Center
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+95415, Wellington
+62750, State
+90717, North Station
+51253, Community College
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+74308, Sullivan Square
+99163, Stony Brook
+34954, Green Street
+29371, Maiden Center
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+17703, Roxbury Crossing
+44926, Community College
+34997, North Station
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+None
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+67992, Tufts Medical Center
+88515, Sullivan Square
+56416, Massachusetts Avenue
+55858, Chinatown
+02538, Tufts Medical Center
+56910, Green Street
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+10563, Back Bay
+32508, Chinatown
+68777, Community College
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+21533, Green Street
+21317, Back Bay
+16884, Stony Brook
+11013, Community College
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+83102, Assembly
+11521, Oak Grove
+28587, Chinatown
+78195, Maiden Center
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+34575, Assembly
+02678, Tufts Medical Center
+06967, Haymarket
+73389, Community College
+86778, Jackson Square
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 36===========================
+85541, Jackson Square
+
+80811, Jackson Square
+
+02865, Jackson Square
+
+20105, Jackson Square
+
+87035, Jackson Square
+
+========================PICK UP 36===========================
+21533, Green Street
+
+16884, Stony Brook
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Stony Brook
+
+All Current Passengers:
+     13699, Green Street
+     69202, Green Street
+     12337, Stony Brook
+     85127, Green Street
+     94041, Forest Hills
+     16195, Stony Brook
+     96986, Green Street
+     49768, Stony Brook
+     74784, Oak Grove
+     63282, Green Street
+     73633, Stony Brook
+     21533, Green Street
+     16884, Stony Brook
+========================
+
+
+========================DROP OFF 37===========================
+12337, Stony Brook
+
+16195, Stony Brook
+
+49768, Stony Brook
+
+73633, Stony Brook
+
+16884, Stony Brook
+
+========================PICK UP 37===========================
+11521, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Green Street
+
+All Current Passengers:
+     13699, Green Street
+     69202, Green Street
+     85127, Green Street
+     94041, Forest Hills
+     96986, Green Street
+     74784, Oak Grove
+     63282, Green Street
+     21533, Green Street
+     11521, Oak Grove
+========================
+
+
+========================DROP OFF 38===========================
+13699, Green Street
+
+69202, Green Street
+
+85127, Green Street
+
+96986, Green Street
+
+63282, Green Street
+
+21533, Green Street
+
+========================PICK UP 38===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Forest Hills
+
+All Current Passengers:
+     94041, Forest Hills
+     74784, Oak Grove
+     11521, Oak Grove
+========================
+
+
+========================DROP OFF 39===========================
+94041, Forest Hills
+
+========================PICK UP 39===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Green Street
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+========================
+
+
+========================DROP OFF 40===========================
+None
+========================PICK UP 40===========================
+34575, Assembly
+
+02678, Tufts Medical Center
+
+06967, Haymarket
+
+73389, Community College
+
+86778, Jackson Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Stony Brook
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     86778, Jackson Square
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+88229, Chinatown
+48160, Oak Grove
+47370, North Station
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+84093, Downtown Crossing
+79306, Tufts Medical Center
+26837, Sullivan Square
+72322, Community College
+74530, Chinatown
+38942, Haymarket
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+66658, Jackson Square
+67532, Tufts Medical Center
+94990, Ruggles
+54497, Chinatown
+86252, Community College
+27584, North Station
+75572, Sullivan Square
+63830, Ruggles
+40375, Oak Grove
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+48503, Green Street
+09609, Massachusetts Avenue
+85380, Tufts Medical Center
+70094, Chinatown
+35871, Jackson Square
+42942, Maiden Center
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+93259, Massachusetts Avenue
+59195, Green Street
+93731, Roxbury Crossing
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+98079, Haymarket
+35069, Chinatown
+15539, Tufts Medical Center
+71963, State
+24495, Roxbury Crossing
+86642, Oak Grove
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+51832, State
+42531, Oak Grove
+82726, Chinatown
+12778, Maiden Center
+67013, Sullivan Square
+15205, Sullivan Square
+========================
+
+-----------------------
+State
+ Passengers:
+
+07526, Back Bay
+06138, Jackson Square
+54476, Oak Grove
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+09341, Wellington
+84436, Jackson Square
+84749, Sullivan Square
+51570, Tufts Medical Center
+41762, Green Street
+47515, Roxbury Crossing
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+95415, Wellington
+62750, State
+90717, North Station
+51253, Community College
+44866, Forest Hills
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+74308, Sullivan Square
+99163, Stony Brook
+34954, Green Street
+29371, Maiden Center
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+17703, Roxbury Crossing
+44926, Community College
+34997, North Station
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+02895, Tufts Medical Center
+74988, North Station
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+67992, Tufts Medical Center
+88515, Sullivan Square
+56416, Massachusetts Avenue
+55858, Chinatown
+02538, Tufts Medical Center
+56910, Green Street
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+10563, Back Bay
+32508, Chinatown
+68777, Community College
+71119, Forest Hills
+22893, Community College
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+21317, Back Bay
+11013, Community College
+15101, Stony Brook
+76196, Community College
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+83102, Assembly
+28587, Chinatown
+78195, Maiden Center
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+54759, Stony Brook
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 41===========================
+None
+========================PICK UP 41===========================
+83102, Assembly
+
+28587, Chinatown
+
+78195, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Jackson Square
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     86778, Jackson Square
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+========================
+
+
+========================DROP OFF 42===========================
+86778, Jackson Square
+
+========================PICK UP 42===========================
+21317, Back Bay
+
+11013, Community College
+
+76196, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Roxbury Crossing
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+     21317, Back Bay
+     11013, Community College
+     76196, Community College
+========================
+
+
+========================DROP OFF 43===========================
+None
+========================PICK UP 43===========================
+10563, Back Bay
+
+32508, Chinatown
+
+68777, Community College
+
+71119, Forest Hills
+
+22893, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Ruggles
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+     21317, Back Bay
+     11013, Community College
+     76196, Community College
+     10563, Back Bay
+     32508, Chinatown
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+========================
+
+
+========================DROP OFF 44===========================
+None
+========================PICK UP 44===========================
+67992, Tufts Medical Center
+
+88515, Sullivan Square
+
+56416, Massachusetts Avenue
+
+55858, Chinatown
+
+02538, Tufts Medical Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Massachusetts Avenue
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+     21317, Back Bay
+     11013, Community College
+     76196, Community College
+     10563, Back Bay
+     32508, Chinatown
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     67992, Tufts Medical Center
+     88515, Sullivan Square
+     56416, Massachusetts Avenue
+     55858, Chinatown
+     02538, Tufts Medical Center
+========================
+
+
+========================DROP OFF 45===========================
+56416, Massachusetts Avenue
+
+========================PICK UP 45===========================
+02895, Tufts Medical Center
+
+74988, North Station
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Back Bay
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+     21317, Back Bay
+     11013, Community College
+     76196, Community College
+     10563, Back Bay
+     32508, Chinatown
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     67992, Tufts Medical Center
+     88515, Sullivan Square
+     55858, Chinatown
+     02538, Tufts Medical Center
+     02895, Tufts Medical Center
+     74988, North Station
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+88229, Chinatown
+48160, Oak Grove
+47370, North Station
+21056, Tufts Medical Center
+35055, State
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+42169, State
+98419, North Station
+12172, North Station
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33398, Community College
+94847, Sullivan Square
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+42942, Maiden Center
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+27522, Tufts Medical Center
+12593, Forest Hills
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+49847, Assembly
+45839, Haymarket
+62161, Roxbury Crossing
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+51832, State
+42531, Oak Grove
+82726, Chinatown
+12778, Maiden Center
+67013, Sullivan Square
+15205, Sullivan Square
+21089, Oak Grove
+71532, Green Street
+44122, Jackson Square
+========================
+
+-----------------------
+State
+ Passengers:
+
+07526, Back Bay
+06138, Jackson Square
+54476, Oak Grove
+21949, Community College
+45900, Back Bay
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+09341, Wellington
+84436, Jackson Square
+84749, Sullivan Square
+51570, Tufts Medical Center
+41762, Green Street
+47515, Roxbury Crossing
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+95415, Wellington
+62750, State
+90717, North Station
+51253, Community College
+44866, Forest Hills
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+74308, Sullivan Square
+99163, Stony Brook
+34954, Green Street
+29371, Maiden Center
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+17703, Roxbury Crossing
+44926, Community College
+34997, North Station
+49378, North Station
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+55890, Forest Hills
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+56910, Green Street
+94439, Tufts Medical Center
+72840, Oak Grove
+62299, Back Bay
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+32133, Forest Hills
+96127, Wellington
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+15101, Stony Brook
+27602, Assembly
+13555, Roxbury Crossing
 ========================
 
 -----------------------
@@ -139,18 +3668,5424 @@ None
 Green Street
  Passengers:
 
-83248, Sullivan Square
-19618, Assembly
-74526, Wellington
+54759, Stony Brook
+53183, State
+25149, Wellington
 ========================
 
 -----------------------
 Forest Hills
  Passengers:
 
-12096, Roxbury Crossing
-94538, Massachusetts Avenue
-65030, Tufts Medical Center
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 46===========================
+21317, Back Bay
+
+10563, Back Bay
+
+========================PICK UP 46===========================
+44926, Community College
+
+34997, North Station
+
+49378, North Station
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Tufts Medical Center
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     02678, Tufts Medical Center
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     32508, Chinatown
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     67992, Tufts Medical Center
+     88515, Sullivan Square
+     55858, Chinatown
+     02538, Tufts Medical Center
+     02895, Tufts Medical Center
+     74988, North Station
+     44926, Community College
+     34997, North Station
+     49378, North Station
+========================
+
+
+========================DROP OFF 47===========================
+02678, Tufts Medical Center
+
+67992, Tufts Medical Center
+
+02538, Tufts Medical Center
+
+02895, Tufts Medical Center
+
+========================PICK UP 47===========================
+74308, Sullivan Square
+
+29371, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Chinatown
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     28587, Chinatown
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     32508, Chinatown
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     88515, Sullivan Square
+     55858, Chinatown
+     74988, North Station
+     44926, Community College
+     34997, North Station
+     49378, North Station
+     74308, Sullivan Square
+     29371, Maiden Center
+========================
+
+
+========================DROP OFF 48===========================
+28587, Chinatown
+
+32508, Chinatown
+
+55858, Chinatown
+
+========================PICK UP 48===========================
+95415, Wellington
+
+62750, State
+
+90717, North Station
+
+51253, Community College
+
+44866, Forest Hills
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Downtown Crossing
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     88515, Sullivan Square
+     74988, North Station
+     44926, Community College
+     34997, North Station
+     49378, North Station
+     74308, Sullivan Square
+     29371, Maiden Center
+     95415, Wellington
+     62750, State
+     90717, North Station
+     51253, Community College
+     44866, Forest Hills
+========================
+
+
+========================DROP OFF 49===========================
+None
+========================PICK UP 49===========================
+09341, Wellington
+
+84749, Sullivan Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: State
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     88515, Sullivan Square
+     74988, North Station
+     44926, Community College
+     34997, North Station
+     49378, North Station
+     74308, Sullivan Square
+     29371, Maiden Center
+     95415, Wellington
+     62750, State
+     90717, North Station
+     51253, Community College
+     44866, Forest Hills
+     09341, Wellington
+     84749, Sullivan Square
+========================
+
+
+========================DROP OFF 50===========================
+62750, State
+
+========================PICK UP 50===========================
+21949, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Haymarket
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     06967, Haymarket
+     73389, Community College
+     83102, Assembly
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     88515, Sullivan Square
+     74988, North Station
+     44926, Community College
+     34997, North Station
+     49378, North Station
+     74308, Sullivan Square
+     29371, Maiden Center
+     95415, Wellington
+     90717, North Station
+     51253, Community College
+     44866, Forest Hills
+     09341, Wellington
+     84749, Sullivan Square
+     21949, Community College
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+88229, Chinatown
+48160, Oak Grove
+47370, North Station
+21056, Tufts Medical Center
+35055, State
+04686, Assembly
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+42169, State
+98419, North Station
+12172, North Station
+33119, State
+29308, Maiden Center
+54134, Chinatown
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33398, Community College
+94847, Sullivan Square
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+42942, Maiden Center
+57885, Forest Hills
+32115, Haymarket
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+27522, Tufts Medical Center
+12593, Forest Hills
+05166, Stony Brook
+21779, Maiden Center
+06778, Haymarket
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+49847, Assembly
+45839, Haymarket
+62161, Roxbury Crossing
+69973, Jackson Square
+71263, Green Street
+51632, Ruggles
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+12778, Maiden Center
+67013, Sullivan Square
+15205, Sullivan Square
+62756, Maiden Center
+========================
+
+-----------------------
+State
+ Passengers:
+
+None
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+36275, Oak Grove
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+79590, Ruggles
+56111, Massachusetts Avenue
+32244, Massachusetts Avenue
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+None
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+17703, Roxbury Crossing
+27199, Tufts Medical Center
+05597, Roxbury Crossing
+95347, Green Street
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+55890, Forest Hills
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+56910, Green Street
+94439, Tufts Medical Center
+72840, Oak Grove
+62299, Back Bay
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+32133, Forest Hills
+96127, Wellington
+92965, Stony Brook
+92414, Ruggles
+68179, Chinatown
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+15101, Stony Brook
+27602, Assembly
+13555, Roxbury Crossing
+96069, Stony Brook
+01425, Assembly
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+89756, Roxbury Crossing
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+54759, Stony Brook
+53183, State
+25149, Wellington
+18048, Forest Hills
+88471, Roxbury Crossing
+62678, Sullivan Square
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 51===========================
+06967, Haymarket
+
+========================PICK UP 51===========================
+12778, Maiden Center
+
+67013, Sullivan Square
+
+15205, Sullivan Square
+
+62756, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: North Station
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     73389, Community College
+     83102, Assembly
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     88515, Sullivan Square
+     74988, North Station
+     44926, Community College
+     34997, North Station
+     49378, North Station
+     74308, Sullivan Square
+     29371, Maiden Center
+     95415, Wellington
+     90717, North Station
+     51253, Community College
+     44866, Forest Hills
+     09341, Wellington
+     84749, Sullivan Square
+     21949, Community College
+     12778, Maiden Center
+     67013, Sullivan Square
+     15205, Sullivan Square
+     62756, Maiden Center
+========================
+
+
+========================DROP OFF 52===========================
+74988, North Station
+
+34997, North Station
+
+49378, North Station
+
+90717, North Station
+
+========================PICK UP 52===========================
+49847, Assembly
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Community College
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     73389, Community College
+     83102, Assembly
+     78195, Maiden Center
+     11013, Community College
+     76196, Community College
+     68777, Community College
+     71119, Forest Hills
+     22893, Community College
+     88515, Sullivan Square
+     44926, Community College
+     74308, Sullivan Square
+     29371, Maiden Center
+     95415, Wellington
+     51253, Community College
+     44866, Forest Hills
+     09341, Wellington
+     84749, Sullivan Square
+     21949, Community College
+     12778, Maiden Center
+     67013, Sullivan Square
+     15205, Sullivan Square
+     62756, Maiden Center
+     49847, Assembly
+========================
+
+
+========================DROP OFF 53===========================
+73389, Community College
+
+11013, Community College
+
+76196, Community College
+
+68777, Community College
+
+22893, Community College
+
+44926, Community College
+
+51253, Community College
+
+21949, Community College
+
+========================PICK UP 53===========================
+12593, Forest Hills
+
+21779, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Sullivan Square
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     83102, Assembly
+     78195, Maiden Center
+     71119, Forest Hills
+     88515, Sullivan Square
+     74308, Sullivan Square
+     29371, Maiden Center
+     95415, Wellington
+     44866, Forest Hills
+     09341, Wellington
+     84749, Sullivan Square
+     12778, Maiden Center
+     67013, Sullivan Square
+     15205, Sullivan Square
+     62756, Maiden Center
+     49847, Assembly
+     12593, Forest Hills
+     21779, Maiden Center
+========================
+
+
+========================DROP OFF 54===========================
+88515, Sullivan Square
+
+74308, Sullivan Square
+
+84749, Sullivan Square
+
+67013, Sullivan Square
+
+15205, Sullivan Square
+
+========================PICK UP 54===========================
+42942, Maiden Center
+
+57885, Forest Hills
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Assembly
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     34575, Assembly
+     83102, Assembly
+     78195, Maiden Center
+     71119, Forest Hills
+     29371, Maiden Center
+     95415, Wellington
+     44866, Forest Hills
+     09341, Wellington
+     12778, Maiden Center
+     62756, Maiden Center
+     49847, Assembly
+     12593, Forest Hills
+     21779, Maiden Center
+     42942, Maiden Center
+     57885, Forest Hills
+========================
+
+
+========================DROP OFF 55===========================
+34575, Assembly
+
+83102, Assembly
+
+49847, Assembly
+
+========================PICK UP 55===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Wellington
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     78195, Maiden Center
+     71119, Forest Hills
+     29371, Maiden Center
+     95415, Wellington
+     44866, Forest Hills
+     09341, Wellington
+     12778, Maiden Center
+     62756, Maiden Center
+     12593, Forest Hills
+     21779, Maiden Center
+     42942, Maiden Center
+     57885, Forest Hills
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+88229, Chinatown
+48160, Oak Grove
+47370, North Station
+21056, Tufts Medical Center
+35055, State
+04686, Assembly
+68220, Chinatown
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+42169, State
+98419, North Station
+12172, North Station
+33119, State
+29308, Maiden Center
+54134, Chinatown
+32507, Downtown Crossing
+09306, Downtown Crossing
+85952, Downtown Crossing
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33398, Community College
+94847, Sullivan Square
+90913, Tufts Medical Center
+06189, Oak Grove
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+32115, Haymarket
+25337, Jackson Square
+53626, Massachusetts Avenue
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+27522, Tufts Medical Center
+05166, Stony Brook
+06778, Haymarket
+50108, Downtown Crossing
+67837, Roxbury Crossing
+05297, Forest Hills
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+45839, Haymarket
+62161, Roxbury Crossing
+69973, Jackson Square
+71263, Green Street
+51632, Ruggles
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+24659, Ruggles
+75548, Jackson Square
+========================
+
+-----------------------
+State
+ Passengers:
+
+84090, Maiden Center
+74321, Downtown Crossing
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+36275, Oak Grove
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+79590, Ruggles
+56111, Massachusetts Avenue
+32244, Massachusetts Avenue
+13027, Downtown Crossing
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+74827, Haymarket
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+27199, Tufts Medical Center
+28989, Massachusetts Avenue
+46763, Chinatown
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+None
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+94439, Tufts Medical Center
+62299, Back Bay
+68279, Downtown Crossing
+31084, Jackson Square
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+96127, Wellington
+92414, Ruggles
+68179, Chinatown
+28841, Haymarket
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+27602, Assembly
+13555, Roxbury Crossing
+01425, Assembly
+34219, Sullivan Square
+44041, Maiden Center
+87864, Downtown Crossing
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+89756, Roxbury Crossing
+62936, Jackson Square
+79064, Roxbury Crossing
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+54759, Stony Brook
+53183, State
+25149, Wellington
+18048, Forest Hills
+88471, Roxbury Crossing
+62678, Sullivan Square
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 56===========================
+95415, Wellington
+
+09341, Wellington
+
+========================PICK UP 56===========================
+29308, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Maiden Center
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     78195, Maiden Center
+     71119, Forest Hills
+     29371, Maiden Center
+     44866, Forest Hills
+     12778, Maiden Center
+     62756, Maiden Center
+     12593, Forest Hills
+     21779, Maiden Center
+     42942, Maiden Center
+     57885, Forest Hills
+     29308, Maiden Center
+========================
+
+
+========================DROP OFF 57===========================
+78195, Maiden Center
+
+29371, Maiden Center
+
+12778, Maiden Center
+
+62756, Maiden Center
+
+21779, Maiden Center
+
+42942, Maiden Center
+
+29308, Maiden Center
+
+========================PICK UP 57===========================
+48160, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Oak Grove
+
+All Current Passengers:
+     74784, Oak Grove
+     11521, Oak Grove
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     48160, Oak Grove
+========================
+
+
+========================DROP OFF 58===========================
+74784, Oak Grove
+
+11521, Oak Grove
+
+48160, Oak Grove
+
+========================PICK UP 58===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Maiden Center
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+========================
+
+
+========================DROP OFF 59===========================
+None
+========================PICK UP 59===========================
+88229, Chinatown
+
+47370, North Station
+
+21056, Tufts Medical Center
+
+35055, State
+
+04686, Assembly
+
+68220, Chinatown
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Wellington
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     47370, North Station
+     21056, Tufts Medical Center
+     35055, State
+     04686, Assembly
+     68220, Chinatown
+========================
+
+
+========================DROP OFF 60===========================
+None
+========================PICK UP 60===========================
+42169, State
+
+98419, North Station
+
+12172, North Station
+
+33119, State
+
+54134, Chinatown
+
+32507, Downtown Crossing
+
+09306, Downtown Crossing
+
+85952, Downtown Crossing
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Assembly
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     47370, North Station
+     21056, Tufts Medical Center
+     35055, State
+     04686, Assembly
+     68220, Chinatown
+     42169, State
+     98419, North Station
+     12172, North Station
+     33119, State
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+None
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+91862, Green Street
+55913, Tufts Medical Center
+44256, Ruggles
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33398, Community College
+94847, Sullivan Square
+90913, Tufts Medical Center
+06189, Oak Grove
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+32115, Haymarket
+25337, Jackson Square
+53626, Massachusetts Avenue
+05223, North Station
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+27522, Tufts Medical Center
+05166, Stony Brook
+06778, Haymarket
+50108, Downtown Crossing
+67837, Roxbury Crossing
+05297, Forest Hills
+88102, Oak Grove
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+45839, Haymarket
+62161, Roxbury Crossing
+69973, Jackson Square
+71263, Green Street
+51632, Ruggles
+10381, Wellington
+63123, Green Street
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+24659, Ruggles
+75548, Jackson Square
+67471, Forest Hills
+33030, Green Street
+========================
+
+-----------------------
+State
+ Passengers:
+
+84090, Maiden Center
+74321, Downtown Crossing
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+36275, Oak Grove
+98382, Stony Brook
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+79590, Ruggles
+56111, Massachusetts Avenue
+32244, Massachusetts Avenue
+13027, Downtown Crossing
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+74827, Haymarket
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+27199, Tufts Medical Center
+28989, Massachusetts Avenue
+46763, Chinatown
+24910, Chinatown
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+47329, Wellington
+33875, Community College
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+94439, Tufts Medical Center
+62299, Back Bay
+68279, Downtown Crossing
+31084, Jackson Square
+13983, Wellington
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+96127, Wellington
+92414, Ruggles
+68179, Chinatown
+28841, Haymarket
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+27602, Assembly
+13555, Roxbury Crossing
+01425, Assembly
+34219, Sullivan Square
+44041, Maiden Center
+87864, Downtown Crossing
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+None
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+10291, Haymarket
+11717, Wellington
+13687, Assembly
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 61===========================
+04686, Assembly
+
+========================PICK UP 61===========================
+33398, Community College
+
+94847, Sullivan Square
+
+90913, Tufts Medical Center
+
+06189, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Sullivan Square
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     47370, North Station
+     21056, Tufts Medical Center
+     35055, State
+     68220, Chinatown
+     42169, State
+     98419, North Station
+     12172, North Station
+     33119, State
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+     33398, Community College
+     94847, Sullivan Square
+     90913, Tufts Medical Center
+     06189, Oak Grove
+========================
+
+
+========================DROP OFF 62===========================
+94847, Sullivan Square
+
+========================PICK UP 62===========================
+32115, Haymarket
+
+25337, Jackson Square
+
+53626, Massachusetts Avenue
+
+05223, North Station
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Community College
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     47370, North Station
+     21056, Tufts Medical Center
+     35055, State
+     68220, Chinatown
+     42169, State
+     98419, North Station
+     12172, North Station
+     33119, State
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+     33398, Community College
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     32115, Haymarket
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     05223, North Station
+========================
+
+
+========================DROP OFF 63===========================
+33398, Community College
+
+========================PICK UP 63===========================
+27522, Tufts Medical Center
+
+05166, Stony Brook
+
+06778, Haymarket
+
+50108, Downtown Crossing
+
+67837, Roxbury Crossing
+
+05297, Forest Hills
+
+88102, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: North Station
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     47370, North Station
+     21056, Tufts Medical Center
+     35055, State
+     68220, Chinatown
+     42169, State
+     98419, North Station
+     12172, North Station
+     33119, State
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     32115, Haymarket
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     05223, North Station
+     27522, Tufts Medical Center
+     05166, Stony Brook
+     06778, Haymarket
+     50108, Downtown Crossing
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+========================
+
+
+========================DROP OFF 64===========================
+47370, North Station
+
+98419, North Station
+
+12172, North Station
+
+05223, North Station
+
+========================PICK UP 64===========================
+45839, Haymarket
+
+62161, Roxbury Crossing
+
+69973, Jackson Square
+
+71263, Green Street
+
+51632, Ruggles
+
+63123, Green Street
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Haymarket
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     21056, Tufts Medical Center
+     35055, State
+     68220, Chinatown
+     42169, State
+     33119, State
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     32115, Haymarket
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     27522, Tufts Medical Center
+     05166, Stony Brook
+     06778, Haymarket
+     50108, Downtown Crossing
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     45839, Haymarket
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+========================
+
+
+========================DROP OFF 65===========================
+32115, Haymarket
+
+06778, Haymarket
+
+45839, Haymarket
+
+========================PICK UP 65===========================
+24659, Ruggles
+
+75548, Jackson Square
+
+67471, Forest Hills
+
+33030, Green Street
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: State
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     21056, Tufts Medical Center
+     35055, State
+     68220, Chinatown
+     42169, State
+     33119, State
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     27522, Tufts Medical Center
+     05166, Stony Brook
+     50108, Downtown Crossing
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+79032, Haymarket
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+91862, Green Street
+55913, Tufts Medical Center
+44256, Ruggles
+53558, Green Street
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+22250, Stony Brook
+68324, Roxbury Crossing
+36791, Community College
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+23162, Tufts Medical Center
+48603, Community College
+03665, Haymarket
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+97583, Jackson Square
+21770, Jackson Square
+40448, Tufts Medical Center
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+10381, Wellington
+54919, Ruggles
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+89796, Assembly
+========================
+
+-----------------------
+State
+ Passengers:
+
+84090, Maiden Center
+74321, Downtown Crossing
+37067, North Station
+14555, Green Street
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+36275, Oak Grove
+98382, Stony Brook
+42442, North Station
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+79590, Ruggles
+56111, Massachusetts Avenue
+32244, Massachusetts Avenue
+13027, Downtown Crossing
+38873, North Station
+71179, Ruggles
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+74827, Haymarket
+09846, Downtown Crossing
+85044, Haymarket
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+28989, Massachusetts Avenue
+92596, Wellington
+12402, Massachusetts Avenue
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+None
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+31084, Jackson Square
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+None
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+56034, Maiden Center
+50354, Green Street
+23593, Assembly
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+42900, Sullivan Square
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+10291, Haymarket
+11717, Wellington
+13687, Assembly
+92557, Back Bay
+27898, Maiden Center
+26428, Tufts Medical Center
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+59218, Oak Grove
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 66===========================
+35055, State
+
+42169, State
+
+33119, State
+
+========================PICK UP 66===========================
+74321, Downtown Crossing
+
+14555, Green Street
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Downtown Crossing
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     21056, Tufts Medical Center
+     68220, Chinatown
+     54134, Chinatown
+     32507, Downtown Crossing
+     09306, Downtown Crossing
+     85952, Downtown Crossing
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     27522, Tufts Medical Center
+     05166, Stony Brook
+     50108, Downtown Crossing
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     74321, Downtown Crossing
+     14555, Green Street
+========================
+
+
+========================DROP OFF 67===========================
+32507, Downtown Crossing
+
+09306, Downtown Crossing
+
+85952, Downtown Crossing
+
+50108, Downtown Crossing
+
+74321, Downtown Crossing
+
+========================PICK UP 67===========================
+36275, Oak Grove
+
+98382, Stony Brook
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Chinatown
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     88229, Chinatown
+     21056, Tufts Medical Center
+     68220, Chinatown
+     54134, Chinatown
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     27522, Tufts Medical Center
+     05166, Stony Brook
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+========================
+
+
+========================DROP OFF 68===========================
+88229, Chinatown
+
+68220, Chinatown
+
+54134, Chinatown
+
+========================PICK UP 68===========================
+79590, Ruggles
+
+56111, Massachusetts Avenue
+
+32244, Massachusetts Avenue
+
+71179, Ruggles
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Tufts Medical Center
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     21056, Tufts Medical Center
+     90913, Tufts Medical Center
+     06189, Oak Grove
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     27522, Tufts Medical Center
+     05166, Stony Brook
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     79590, Ruggles
+     56111, Massachusetts Avenue
+     32244, Massachusetts Avenue
+     71179, Ruggles
+========================
+
+
+========================DROP OFF 69===========================
+21056, Tufts Medical Center
+
+90913, Tufts Medical Center
+
+27522, Tufts Medical Center
+
+========================PICK UP 69===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Back Bay
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     05166, Stony Brook
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     79590, Ruggles
+     56111, Massachusetts Avenue
+     32244, Massachusetts Avenue
+     71179, Ruggles
+========================
+
+
+========================DROP OFF 70===========================
+None
+========================PICK UP 70===========================
+28989, Massachusetts Avenue
+
+12402, Massachusetts Avenue
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Massachusetts Avenue
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     25337, Jackson Square
+     53626, Massachusetts Avenue
+     05166, Stony Brook
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     79590, Ruggles
+     56111, Massachusetts Avenue
+     32244, Massachusetts Avenue
+     71179, Ruggles
+     28989, Massachusetts Avenue
+     12402, Massachusetts Avenue
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+79032, Haymarket
+83522, State
+36393, Oak Grove
+19624, Green Street
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+91862, Green Street
+55913, Tufts Medical Center
+44256, Ruggles
+53558, Green Street
+64118, Community College
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+22250, Stony Brook
+68324, Roxbury Crossing
+36791, Community College
+42311, Roxbury Crossing
+95177, State
+95161, State
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+23162, Tufts Medical Center
+48603, Community College
+03665, Haymarket
+85867, Tufts Medical Center
+28744, Roxbury Crossing
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+97583, Jackson Square
+21770, Jackson Square
+40448, Tufts Medical Center
+39877, Ruggles
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+10381, Wellington
+54919, Ruggles
+43844, Green Street
+69005, Back Bay
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+None
+========================
+
+-----------------------
+State
+ Passengers:
+
+26113, Tufts Medical Center
+24695, Forest Hills
+30093, Assembly
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+06294, Tufts Medical Center
+92696, Community College
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+34251, Massachusetts Avenue
+41939, Oak Grove
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+01925, Ruggles
+50073, Wellington
+75964, Massachusetts Avenue
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+92596, Wellington
+86087, Sullivan Square
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+43380, Back Bay
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+31084, Jackson Square
+92764, Haymarket
+77117, Community College
+93629, Community College
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+33969, Back Bay
+90221, Green Street
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+56034, Maiden Center
+50354, Green Street
+23593, Assembly
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+42900, Sullivan Square
+51505, Jackson Square
+61894, Wellington
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+10291, Haymarket
+11717, Wellington
+13687, Assembly
+92557, Back Bay
+27898, Maiden Center
+26428, Tufts Medical Center
+34656, Oak Grove
+12926, North Station
+95553, Community College
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+59218, Oak Grove
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 71===========================
+53626, Massachusetts Avenue
+
+56111, Massachusetts Avenue
+
+32244, Massachusetts Avenue
+
+28989, Massachusetts Avenue
+
+12402, Massachusetts Avenue
+
+========================PICK UP 71===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Ruggles
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     25337, Jackson Square
+     05166, Stony Brook
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     51632, Ruggles
+     63123, Green Street
+     24659, Ruggles
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     79590, Ruggles
+     71179, Ruggles
+========================
+
+
+========================DROP OFF 72===========================
+51632, Ruggles
+
+24659, Ruggles
+
+79590, Ruggles
+
+71179, Ruggles
+
+========================PICK UP 72===========================
+31084, Jackson Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Roxbury Crossing
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     25337, Jackson Square
+     05166, Stony Brook
+     67837, Roxbury Crossing
+     05297, Forest Hills
+     88102, Oak Grove
+     62161, Roxbury Crossing
+     69973, Jackson Square
+     71263, Green Street
+     63123, Green Street
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     31084, Jackson Square
+========================
+
+
+========================DROP OFF 73===========================
+67837, Roxbury Crossing
+
+62161, Roxbury Crossing
+
+========================PICK UP 73===========================
+90221, Green Street
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Jackson Square
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     25337, Jackson Square
+     05166, Stony Brook
+     05297, Forest Hills
+     88102, Oak Grove
+     69973, Jackson Square
+     71263, Green Street
+     63123, Green Street
+     75548, Jackson Square
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     31084, Jackson Square
+     90221, Green Street
+========================
+
+
+========================DROP OFF 74===========================
+25337, Jackson Square
+
+69973, Jackson Square
+
+75548, Jackson Square
+
+31084, Jackson Square
+
+========================PICK UP 74===========================
+50354, Green Street
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Stony Brook
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     05166, Stony Brook
+     05297, Forest Hills
+     88102, Oak Grove
+     71263, Green Street
+     63123, Green Street
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     98382, Stony Brook
+     90221, Green Street
+     50354, Green Street
+========================
+
+
+========================DROP OFF 75===========================
+05166, Stony Brook
+
+98382, Stony Brook
+
+========================PICK UP 75===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Green Street
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     05297, Forest Hills
+     88102, Oak Grove
+     71263, Green Street
+     63123, Green Street
+     67471, Forest Hills
+     33030, Green Street
+     14555, Green Street
+     36275, Oak Grove
+     90221, Green Street
+     50354, Green Street
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+79032, Haymarket
+83522, State
+36393, Oak Grove
+19624, Green Street
+05859, Assembly
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+91862, Green Street
+55913, Tufts Medical Center
+44256, Ruggles
+53558, Green Street
+64118, Community College
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+22250, Stony Brook
+68324, Roxbury Crossing
+36791, Community College
+42311, Roxbury Crossing
+95177, State
+95161, State
+37875, Massachusetts Avenue
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+23162, Tufts Medical Center
+48603, Community College
+03665, Haymarket
+85867, Tufts Medical Center
+28744, Roxbury Crossing
+13307, Oak Grove
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+97583, Jackson Square
+21770, Jackson Square
+40448, Tufts Medical Center
+39877, Ruggles
+43976, State
+23288, Downtown Crossing
+97508, North Station
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+54919, Ruggles
+43844, Green Street
+69005, Back Bay
+96314, Ruggles
+97919, Oak Grove
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+40860, Back Bay
+49592, Green Street
+========================
+
+-----------------------
+State
+ Passengers:
+
+26113, Tufts Medical Center
+24695, Forest Hills
+30093, Assembly
+50162, Stony Brook
+64991, Wellington
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+06294, Tufts Medical Center
+92696, Community College
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+34251, Massachusetts Avenue
+41939, Oak Grove
+27190, Forest Hills
+07676, North Station
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+01925, Ruggles
+50073, Wellington
+75964, Massachusetts Avenue
+10590, Haymarket
+45367, Green Street
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+92596, Wellington
+86087, Sullivan Square
+56002, Jackson Square
+67803, Oak Grove
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+43380, Back Bay
+71408, Roxbury Crossing
+51997, Community College
+09819, Community College
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+92764, Haymarket
+77117, Community College
+93629, Community College
+28143, Jackson Square
+21924, Haymarket
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+33969, Back Bay
+42258, Maiden Center
+43138, Stony Brook
+27195, State
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+56034, Maiden Center
+23593, Assembly
+14112, Tufts Medical Center
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+42900, Sullivan Square
+51505, Jackson Square
+61894, Wellington
+17367, Downtown Crossing
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+10291, Haymarket
+11717, Wellington
+13687, Assembly
+92557, Back Bay
+27898, Maiden Center
+26428, Tufts Medical Center
+34656, Oak Grove
+12926, North Station
+95553, Community College
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+59218, Oak Grove
+63953, Downtown Crossing
+82755, Haymarket
+62741, Oak Grove
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 76===========================
+71263, Green Street
+
+63123, Green Street
+
+33030, Green Street
+
+14555, Green Street
+
+90221, Green Street
+
+50354, Green Street
+
+========================PICK UP 76===========================
+34656, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Forest Hills
+
+All Current Passengers:
+     71119, Forest Hills
+     44866, Forest Hills
+     12593, Forest Hills
+     57885, Forest Hills
+     06189, Oak Grove
+     05297, Forest Hills
+     88102, Oak Grove
+     67471, Forest Hills
+     36275, Oak Grove
+     34656, Oak Grove
+========================
+
+
+========================DROP OFF 77===========================
+71119, Forest Hills
+
+44866, Forest Hills
+
+12593, Forest Hills
+
+57885, Forest Hills
+
+05297, Forest Hills
+
+67471, Forest Hills
+
+========================PICK UP 77===========================
+59218, Oak Grove
+
+62741, Oak Grove
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Green Street
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+========================
+
+
+========================DROP OFF 78===========================
+None
+========================PICK UP 78===========================
+10291, Haymarket
+
+11717, Wellington
+
+13687, Assembly
+
+92557, Back Bay
+
+27898, Maiden Center
+
+26428, Tufts Medical Center
+
+12926, North Station
+
+95553, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Stony Brook
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     92557, Back Bay
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+========================
+
+
+========================DROP OFF 79===========================
+None
+========================PICK UP 79===========================
+42900, Sullivan Square
+
+51505, Jackson Square
+
+61894, Wellington
+
+17367, Downtown Crossing
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Jackson Square
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     92557, Back Bay
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     51505, Jackson Square
+     61894, Wellington
+     17367, Downtown Crossing
+========================
+
+
+========================DROP OFF 80===========================
+51505, Jackson Square
+
+========================PICK UP 80===========================
+56034, Maiden Center
+
+23593, Assembly
+
+14112, Tufts Medical Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Roxbury Crossing
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     92557, Back Bay
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     14112, Tufts Medical Center
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+45608, Sullivan Square
+92926, Ruggles
+58339, Chinatown
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+99285, Sullivan Square
+21395, Stony Brook
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+52363, Haymarket
+81179, Downtown Crossing
+49484, Ruggles
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33166, Ruggles
+07453, Tufts Medical Center
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+23162, Tufts Medical Center
+48603, Community College
+03665, Haymarket
+85867, Tufts Medical Center
+28744, Roxbury Crossing
+13307, Oak Grove
+82189, Massachusetts Avenue
+02549, Jackson Square
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+97583, Jackson Square
+21770, Jackson Square
+40448, Tufts Medical Center
+39877, Ruggles
+43976, State
+23288, Downtown Crossing
+97508, North Station
+10966, Maiden Center
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+54919, Ruggles
+43844, Green Street
+69005, Back Bay
+96314, Ruggles
+97919, Oak Grove
+90463, Massachusetts Avenue
+41965, Downtown Crossing
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+40860, Back Bay
+49592, Green Street
+02025, Back Bay
+40590, North Station
+========================
+
+-----------------------
+State
+ Passengers:
+
+26113, Tufts Medical Center
+24695, Forest Hills
+30093, Assembly
+50162, Stony Brook
+64991, Wellington
+32234, Chinatown
+57687, Tufts Medical Center
+18179, North Station
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+06294, Tufts Medical Center
+92696, Community College
+14153, Sullivan Square
+18325, Roxbury Crossing
+13254, Back Bay
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+34251, Massachusetts Avenue
+41939, Oak Grove
+27190, Forest Hills
+07676, North Station
+57488, Green Street
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+01925, Ruggles
+50073, Wellington
+75964, Massachusetts Avenue
+10590, Haymarket
+45367, Green Street
+06941, Maiden Center
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+92596, Wellington
+86087, Sullivan Square
+56002, Jackson Square
+67803, Oak Grove
+54463, Community College
+27709, Tufts Medical Center
+69702, Ruggles
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+43380, Back Bay
+71408, Roxbury Crossing
+51997, Community College
+09819, Community College
+40537, Stony Brook
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+92764, Haymarket
+77117, Community College
+93629, Community College
+28143, Jackson Square
+21924, Haymarket
+30220, Assembly
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+33969, Back Bay
+42258, Maiden Center
+43138, Stony Brook
+27195, State
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+01020, Roxbury Crossing
+16410, Sullivan Square
+55594, Back Bay
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+93900, Sullivan Square
+67966, Wellington
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+18875, Jackson Square
+26901, Stony Brook
+04431, Assembly
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+63953, Downtown Crossing
+82755, Haymarket
+67757, Assembly
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 81===========================
+None
+========================PICK UP 81===========================
+33969, Back Bay
+
+42258, Maiden Center
+
+27195, State
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Ruggles
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     92557, Back Bay
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     14112, Tufts Medical Center
+     33969, Back Bay
+     42258, Maiden Center
+     27195, State
+========================
+
+
+========================DROP OFF 82===========================
+None
+========================PICK UP 82===========================
+92764, Haymarket
+
+77117, Community College
+
+93629, Community College
+
+21924, Haymarket
+
+30220, Assembly
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Massachusetts Avenue
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     92557, Back Bay
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     14112, Tufts Medical Center
+     33969, Back Bay
+     42258, Maiden Center
+     27195, State
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+========================
+
+
+========================DROP OFF 83===========================
+None
+========================PICK UP 83===========================
+43380, Back Bay
+
+51997, Community College
+
+09819, Community College
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Back Bay
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     92557, Back Bay
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     14112, Tufts Medical Center
+     33969, Back Bay
+     42258, Maiden Center
+     27195, State
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+     43380, Back Bay
+     51997, Community College
+     09819, Community College
+========================
+
+
+========================DROP OFF 84===========================
+92557, Back Bay
+
+33969, Back Bay
+
+43380, Back Bay
+
+========================PICK UP 84===========================
+92596, Wellington
+
+86087, Sullivan Square
+
+67803, Oak Grove
+
+54463, Community College
+
+27709, Tufts Medical Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Tufts Medical Center
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     26428, Tufts Medical Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     14112, Tufts Medical Center
+     42258, Maiden Center
+     27195, State
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     27709, Tufts Medical Center
+========================
+
+
+========================DROP OFF 85===========================
+26428, Tufts Medical Center
+
+14112, Tufts Medical Center
+
+27709, Tufts Medical Center
+
+========================PICK UP 85===========================
+50073, Wellington
+
+10590, Haymarket
+
+06941, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Chinatown
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     27195, State
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     50073, Wellington
+     10590, Haymarket
+     06941, Maiden Center
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+45608, Sullivan Square
+92926, Ruggles
+58339, Chinatown
+43125, State
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+99285, Sullivan Square
+21395, Stony Brook
+78895, Sullivan Square
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+52363, Haymarket
+81179, Downtown Crossing
+49484, Ruggles
+14755, Back Bay
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33166, Ruggles
+07453, Tufts Medical Center
+89979, Massachusetts Avenue
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+None
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+10966, Maiden Center
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+51670, Roxbury Crossing
+77785, Sullivan Square
+15033, State
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+40590, North Station
+79427, Assembly
+60933, Sullivan Square
+========================
+
+-----------------------
+State
+ Passengers:
+
+30093, Assembly
+64991, Wellington
+18179, North Station
+61478, Downtown Crossing
+81288, Sullivan Square
+71003, Maiden Center
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+06294, Tufts Medical Center
+92696, Community College
+14153, Sullivan Square
+18325, Roxbury Crossing
+13254, Back Bay
+31104, State
+72926, Chinatown
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+34251, Massachusetts Avenue
+41939, Oak Grove
+27190, Forest Hills
+07676, North Station
+57488, Green Street
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+01925, Ruggles
+75964, Massachusetts Avenue
+45367, Green Street
+18873, Downtown Crossing
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+56002, Jackson Square
+69702, Ruggles
+08179, Tufts Medical Center
+06939, Stony Brook
+90267, Roxbury Crossing
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+71408, Roxbury Crossing
+40537, Stony Brook
+76970, Sullivan Square
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+28143, Jackson Square
+39814, North Station
+85030, Tufts Medical Center
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+43138, Stony Brook
+60982, State
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+01020, Roxbury Crossing
+16410, Sullivan Square
+55594, Back Bay
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+93900, Sullivan Square
+67966, Wellington
+36280, Haymarket
+18770, Sullivan Square
+53054, Massachusetts Avenue
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+18875, Jackson Square
+26901, Stony Brook
+04431, Assembly
+27066, Ruggles
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+63953, Downtown Crossing
+82755, Haymarket
+67757, Assembly
+91545, Massachusetts Avenue
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 86===========================
+None
+========================PICK UP 86===========================
+41939, Oak Grove
+
+27190, Forest Hills
+
+07676, North Station
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Downtown Crossing
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     17367, Downtown Crossing
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     27195, State
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     50073, Wellington
+     10590, Haymarket
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     07676, North Station
+========================
+
+
+========================DROP OFF 87===========================
+17367, Downtown Crossing
+
+========================PICK UP 87===========================
+92696, Community College
+
+14153, Sullivan Square
+
+31104, State
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: State
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     27195, State
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     50073, Wellington
+     10590, Haymarket
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     07676, North Station
+     92696, Community College
+     14153, Sullivan Square
+     31104, State
+========================
+
+
+========================DROP OFF 88===========================
+27195, State
+
+31104, State
+
+========================PICK UP 88===========================
+30093, Assembly
+
+64991, Wellington
+
+18179, North Station
+
+81288, Sullivan Square
+
+71003, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Haymarket
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     10291, Haymarket
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     92764, Haymarket
+     77117, Community College
+     93629, Community College
+     21924, Haymarket
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     50073, Wellington
+     10590, Haymarket
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     07676, North Station
+     92696, Community College
+     14153, Sullivan Square
+     30093, Assembly
+     64991, Wellington
+     18179, North Station
+     81288, Sullivan Square
+     71003, Maiden Center
+========================
+
+
+========================DROP OFF 89===========================
+10291, Haymarket
+
+92764, Haymarket
+
+21924, Haymarket
+
+10590, Haymarket
+
+========================PICK UP 89===========================
+40590, North Station
+
+79427, Assembly
+
+60933, Sullivan Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: North Station
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     12926, North Station
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     77117, Community College
+     93629, Community College
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     50073, Wellington
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     07676, North Station
+     92696, Community College
+     14153, Sullivan Square
+     30093, Assembly
+     64991, Wellington
+     18179, North Station
+     81288, Sullivan Square
+     71003, Maiden Center
+     40590, North Station
+     79427, Assembly
+     60933, Sullivan Square
+========================
+
+
+========================DROP OFF 90===========================
+12926, North Station
+
+07676, North Station
+
+18179, North Station
+
+40590, North Station
+
+========================PICK UP 90===========================
+77785, Sullivan Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Community College
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     95553, Community College
+     42900, Sullivan Square
+     61894, Wellington
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     77117, Community College
+     93629, Community College
+     30220, Assembly
+     51997, Community College
+     09819, Community College
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     54463, Community College
+     50073, Wellington
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     92696, Community College
+     14153, Sullivan Square
+     30093, Assembly
+     64991, Wellington
+     81288, Sullivan Square
+     71003, Maiden Center
+     79427, Assembly
+     60933, Sullivan Square
+     77785, Sullivan Square
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+45608, Sullivan Square
+92926, Ruggles
+58339, Chinatown
+43125, State
+86127, Tufts Medical Center
+44933, Back Bay
+48492, Sullivan Square
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+99285, Sullivan Square
+21395, Stony Brook
+78895, Sullivan Square
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+52363, Haymarket
+81179, Downtown Crossing
+49484, Ruggles
+14755, Back Bay
+89803, Sullivan Square
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33166, Ruggles
+07453, Tufts Medical Center
+89979, Massachusetts Avenue
+25471, Back Bay
+11015, Massachusetts Avenue
+94008, Forest Hills
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+04569, Ruggles
+75373, Stony Brook
+24892, Stony Brook
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+10966, Maiden Center
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+51670, Roxbury Crossing
+15033, State
+56815, Back Bay
+88263, Oak Grove
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+91390, Jackson Square
+89188, Back Bay
+99038, Chinatown
+========================
+
+-----------------------
+State
+ Passengers:
+
+61478, Downtown Crossing
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+87759, Oak Grove
+24426, Jackson Square
+83229, Sullivan Square
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+74708, Jackson Square
+96953, Assembly
+42588, Jackson Square
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+18873, Downtown Crossing
+51401, Chinatown
+02150, Green Street
+59450, Chinatown
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+08179, Tufts Medical Center
+95824, Tufts Medical Center
+93813, Chinatown
+47083, Forest Hills
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+76970, Sullivan Square
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+28143, Jackson Square
+39814, North Station
+85030, Tufts Medical Center
+19463, Downtown Crossing
+91893, Tufts Medical Center
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+43138, Stony Brook
+60982, State
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+01020, Roxbury Crossing
+16410, Sullivan Square
+55594, Back Bay
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+93900, Sullivan Square
+67966, Wellington
+36280, Haymarket
+18770, Sullivan Square
+53054, Massachusetts Avenue
+78776, Massachusetts Avenue
+26605, Community College
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+18875, Jackson Square
+26901, Stony Brook
+04431, Assembly
+27066, Ruggles
+15558, Downtown Crossing
+64015, Wellington
+08170, Jackson Square
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+63953, Downtown Crossing
+82755, Haymarket
+67757, Assembly
+91545, Massachusetts Avenue
+61924, Massachusetts Avenue
+89453, Ruggles
+87443, Sullivan Square
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 91===========================
+95553, Community College
+
+77117, Community College
+
+93629, Community College
+
+51997, Community College
+
+09819, Community College
+
+54463, Community College
+
+92696, Community College
+
+========================PICK UP 91===========================
+10966, Maiden Center
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Sullivan Square
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     42900, Sullivan Square
+     61894, Wellington
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     30220, Assembly
+     92596, Wellington
+     86087, Sullivan Square
+     67803, Oak Grove
+     50073, Wellington
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     14153, Sullivan Square
+     30093, Assembly
+     64991, Wellington
+     81288, Sullivan Square
+     71003, Maiden Center
+     79427, Assembly
+     60933, Sullivan Square
+     77785, Sullivan Square
+     10966, Maiden Center
+========================
+
+
+========================DROP OFF 92===========================
+42900, Sullivan Square
+
+86087, Sullivan Square
+
+14153, Sullivan Square
+
+81288, Sullivan Square
+
+60933, Sullivan Square
+
+77785, Sullivan Square
+
+========================PICK UP 92===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Assembly
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     11717, Wellington
+     13687, Assembly
+     27898, Maiden Center
+     61894, Wellington
+     56034, Maiden Center
+     23593, Assembly
+     42258, Maiden Center
+     30220, Assembly
+     92596, Wellington
+     67803, Oak Grove
+     50073, Wellington
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     30093, Assembly
+     64991, Wellington
+     71003, Maiden Center
+     79427, Assembly
+     10966, Maiden Center
+========================
+
+
+========================DROP OFF 93===========================
+13687, Assembly
+
+23593, Assembly
+
+30220, Assembly
+
+30093, Assembly
+
+79427, Assembly
+
+========================PICK UP 93===========================
+94008, Forest Hills
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Wellington
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     11717, Wellington
+     27898, Maiden Center
+     61894, Wellington
+     56034, Maiden Center
+     42258, Maiden Center
+     92596, Wellington
+     67803, Oak Grove
+     50073, Wellington
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     64991, Wellington
+     71003, Maiden Center
+     10966, Maiden Center
+     94008, Forest Hills
+========================
+
+
+========================DROP OFF 94===========================
+11717, Wellington
+
+61894, Wellington
+
+92596, Wellington
+
+50073, Wellington
+
+64991, Wellington
+
+========================PICK UP 94===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Maiden Center
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     27898, Maiden Center
+     56034, Maiden Center
+     42258, Maiden Center
+     67803, Oak Grove
+     06941, Maiden Center
+     41939, Oak Grove
+     27190, Forest Hills
+     71003, Maiden Center
+     10966, Maiden Center
+     94008, Forest Hills
+========================
+
+
+========================DROP OFF 95===========================
+27898, Maiden Center
+
+56034, Maiden Center
+
+42258, Maiden Center
+
+06941, Maiden Center
+
+71003, Maiden Center
+
+10966, Maiden Center
+
+========================PICK UP 95===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Oak Grove
+
+All Current Passengers:
+     06189, Oak Grove
+     88102, Oak Grove
+     36275, Oak Grove
+     34656, Oak Grove
+     59218, Oak Grove
+     62741, Oak Grove
+     67803, Oak Grove
+     41939, Oak Grove
+     27190, Forest Hills
+     94008, Forest Hills
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+45608, Sullivan Square
+92926, Ruggles
+58339, Chinatown
+43125, State
+86127, Tufts Medical Center
+44933, Back Bay
+48492, Sullivan Square
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+99285, Sullivan Square
+21395, Stony Brook
+78895, Sullivan Square
+78121, Wellington
+94213, Chinatown
+84524, Chinatown
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+52363, Haymarket
+81179, Downtown Crossing
+49484, Ruggles
+14755, Back Bay
+89803, Sullivan Square
+65899, State
+05058, Jackson Square
+71707, Maiden Center
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+33166, Ruggles
+07453, Tufts Medical Center
+89979, Massachusetts Avenue
+25471, Back Bay
+11015, Massachusetts Avenue
+75384, Forest Hills
+59476, Roxbury Crossing
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+04569, Ruggles
+75373, Stony Brook
+24892, Stony Brook
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+12977, Maiden Center
+77063, Oak Grove
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+51670, Roxbury Crossing
+15033, State
+56815, Back Bay
+88263, Oak Grove
+11750, Back Bay
+70482, Back Bay
+11704, Stony Brook
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+91390, Jackson Square
+89188, Back Bay
+99038, Chinatown
+46449, Back Bay
+73423, Tufts Medical Center
+========================
+
+-----------------------
+State
+ Passengers:
+
+61478, Downtown Crossing
+13656, North Station
+30666, Maiden Center
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+87759, Oak Grove
+24426, Jackson Square
+83229, Sullivan Square
+99451, Chinatown
+71510, Chinatown
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+74708, Jackson Square
+96953, Assembly
+42588, Jackson Square
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+18873, Downtown Crossing
+51401, Chinatown
+02150, Green Street
+59450, Chinatown
+50465, Chinatown
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+08179, Tufts Medical Center
+95824, Tufts Medical Center
+93813, Chinatown
+47083, Forest Hills
+01378, Forest Hills
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+76970, Sullivan Square
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+39814, North Station
+85030, Tufts Medical Center
+19463, Downtown Crossing
+91893, Tufts Medical Center
+54608, Jackson Square
+80356, Massachusetts Avenue
+64856, Tufts Medical Center
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+60982, State
+02126, Chinatown
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+01020, Roxbury Crossing
+16410, Sullivan Square
+55594, Back Bay
+91919, Community College
+50301, Assembly
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+93900, Sullivan Square
+67966, Wellington
+36280, Haymarket
+18770, Sullivan Square
+53054, Massachusetts Avenue
+78776, Massachusetts Avenue
+26605, Community College
+72512, Maiden Center
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+18875, Jackson Square
+26901, Stony Brook
+04431, Assembly
+27066, Ruggles
+15558, Downtown Crossing
+64015, Wellington
+08170, Jackson Square
+06104, Community College
+92630, State
+66002, Tufts Medical Center
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+63953, Downtown Crossing
+82755, Haymarket
+67757, Assembly
+91545, Massachusetts Avenue
+61924, Massachusetts Avenue
+89453, Ruggles
+87443, Sullivan Square
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+========================DROP OFF 96===========================
+06189, Oak Grove
+
+88102, Oak Grove
+
+36275, Oak Grove
+
+34656, Oak Grove
+
+59218, Oak Grove
+
+62741, Oak Grove
+
+67803, Oak Grove
+
+41939, Oak Grove
+
+========================PICK UP 96===========================
+None
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Maiden Center
+
+All Current Passengers:
+     27190, Forest Hills
+     94008, Forest Hills
+========================
+
+
+========================DROP OFF 97===========================
+None
+========================PICK UP 97===========================
+99285, Sullivan Square
+
+21395, Stony Brook
+
+78895, Sullivan Square
+
+78121, Wellington
+
+94213, Chinatown
+
+84524, Chinatown
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Wellington
+
+All Current Passengers:
+     27190, Forest Hills
+     94008, Forest Hills
+     99285, Sullivan Square
+     21395, Stony Brook
+     78895, Sullivan Square
+     78121, Wellington
+     94213, Chinatown
+     84524, Chinatown
+========================
+
+
+========================DROP OFF 98===========================
+78121, Wellington
+
+========================PICK UP 98===========================
+52363, Haymarket
+
+81179, Downtown Crossing
+
+49484, Ruggles
+
+14755, Back Bay
+
+89803, Sullivan Square
+
+65899, State
+
+05058, Jackson Square
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Assembly
+
+All Current Passengers:
+     27190, Forest Hills
+     94008, Forest Hills
+     99285, Sullivan Square
+     21395, Stony Brook
+     78895, Sullivan Square
+     94213, Chinatown
+     84524, Chinatown
+     52363, Haymarket
+     81179, Downtown Crossing
+     49484, Ruggles
+     14755, Back Bay
+     89803, Sullivan Square
+     65899, State
+     05058, Jackson Square
+========================
+
+
+========================DROP OFF 99===========================
+None
+========================PICK UP 99===========================
+33166, Ruggles
+
+07453, Tufts Medical Center
+
+89979, Massachusetts Avenue
+
+25471, Back Bay
+
+11015, Massachusetts Avenue
+
+75384, Forest Hills
+
+59476, Roxbury Crossing
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Sullivan Square
+
+All Current Passengers:
+     27190, Forest Hills
+     94008, Forest Hills
+     99285, Sullivan Square
+     21395, Stony Brook
+     78895, Sullivan Square
+     94213, Chinatown
+     84524, Chinatown
+     52363, Haymarket
+     81179, Downtown Crossing
+     49484, Ruggles
+     14755, Back Bay
+     89803, Sullivan Square
+     65899, State
+     05058, Jackson Square
+     33166, Ruggles
+     07453, Tufts Medical Center
+     89979, Massachusetts Avenue
+     25471, Back Bay
+     11015, Massachusetts Avenue
+     75384, Forest Hills
+     59476, Roxbury Crossing
+========================
+
+
+========================DROP OFF 100===========================
+99285, Sullivan Square
+
+78895, Sullivan Square
+
+89803, Sullivan Square
+
+========================PICK UP 100===========================
+04569, Ruggles
+
+75373, Stony Brook
+
+24892, Stony Brook
+
+========================MOVE TO NEXT STOP===========================
+-----------------------
+Train: Backwards Train
+CurrentStation: Community College
+
+All Current Passengers:
+     27190, Forest Hills
+     94008, Forest Hills
+     21395, Stony Brook
+     94213, Chinatown
+     84524, Chinatown
+     52363, Haymarket
+     81179, Downtown Crossing
+     49484, Ruggles
+     14755, Back Bay
+     65899, State
+     05058, Jackson Square
+     33166, Ruggles
+     07453, Tufts Medical Center
+     89979, Massachusetts Avenue
+     25471, Back Bay
+     11015, Massachusetts Avenue
+     75384, Forest Hills
+     59476, Roxbury Crossing
+     04569, Ruggles
+     75373, Stony Brook
+     24892, Stony Brook
+========================
+
+
+PASSENGER RESTOCK TIME
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+45608, Sullivan Square
+92926, Ruggles
+58339, Chinatown
+43125, State
+86127, Tufts Medical Center
+44933, Back Bay
+48492, Sullivan Square
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+None
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+71707, Maiden Center
+06452, Roxbury Crossing
+06155, Massachusetts Avenue
+76981, Massachusetts Avenue
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+None
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+None
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+12977, Maiden Center
+77063, Oak Grove
+17523, Chinatown
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+51670, Roxbury Crossing
+15033, State
+56815, Back Bay
+88263, Oak Grove
+11750, Back Bay
+70482, Back Bay
+11704, Stony Brook
+46752, Community College
+51270, Jackson Square
+43104, Chinatown
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+91390, Jackson Square
+89188, Back Bay
+99038, Chinatown
+46449, Back Bay
+73423, Tufts Medical Center
+02839, Forest Hills
+14558, Tufts Medical Center
+========================
+
+-----------------------
+State
+ Passengers:
+
+61478, Downtown Crossing
+13656, North Station
+30666, Maiden Center
+40805, Wellington
+43056, Downtown Crossing
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+87759, Oak Grove
+24426, Jackson Square
+83229, Sullivan Square
+99451, Chinatown
+71510, Chinatown
+59068, Stony Brook
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+74708, Jackson Square
+96953, Assembly
+42588, Jackson Square
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+18873, Downtown Crossing
+51401, Chinatown
+02150, Green Street
+59450, Chinatown
+50465, Chinatown
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+08179, Tufts Medical Center
+95824, Tufts Medical Center
+93813, Chinatown
+47083, Forest Hills
+01378, Forest Hills
+47996, Forest Hills
+05000, Massachusetts Avenue
+67861, Maiden Center
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+76970, Sullivan Square
+62983, Tufts Medical Center
+63380, Haymarket
+86475, Downtown Crossing
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+39814, North Station
+85030, Tufts Medical Center
+19463, Downtown Crossing
+91893, Tufts Medical Center
+54608, Jackson Square
+80356, Massachusetts Avenue
+64856, Tufts Medical Center
+07760, Assembly
+60385, Green Street
+39167, State
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+None
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+26842, Sullivan Square
+80180, Downtown Crossing
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+89997, Forest Hills
+22819, Community College
+24371, Assembly
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+26954, Massachusetts Avenue
+62314, Jackson Square
+42018, Tufts Medical Center
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+63953, Downtown Crossing
+82755, Haymarket
+67757, Assembly
+91545, Massachusetts Avenue
+61924, Massachusetts Avenue
+89453, Ruggles
+87443, Sullivan Square
+========================
+
+
+BACK TO TRAINS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+-----------------------
+Oak Grove
+ Passengers:
+
+76726, Green Street
+27244, State
+55995, Tufts Medical Center
+94254, Jackson Square
+76449, Ruggles
+08295, Maiden Center
+34146, Haymarket
+92407, Downtown Crossing
+08219, Ruggles
+96119, Stony Brook
+77950, Tufts Medical Center
+18808, Community College
+46093, Wellington
+70518, Downtown Crossing
+82862, Haymarket
+10235, Community College
+20264, Ruggles
+11411, Massachusetts Avenue
+40386, Chinatown
+19378, Ruggles
+25199, Chinatown
+15263, Stony Brook
+47726, Stony Brook
+38566, Haymarket
+45608, Sullivan Square
+92926, Ruggles
+58339, Chinatown
+43125, State
+86127, Tufts Medical Center
+44933, Back Bay
+48492, Sullivan Square
+========================
+
+-----------------------
+Maiden Center
+ Passengers:
+
+None
+========================
+
+-----------------------
+Wellington
+ Passengers:
+
+71707, Maiden Center
+06452, Roxbury Crossing
+06155, Massachusetts Avenue
+76981, Massachusetts Avenue
+========================
+
+-----------------------
+Assembly
+ Passengers:
+
+None
+========================
+
+-----------------------
+Sullivan Square
+ Passengers:
+
+None
+========================
+
+-----------------------
+Community College
+ Passengers:
+
+12977, Maiden Center
+77063, Oak Grove
+17523, Chinatown
+========================
+
+-----------------------
+North Station
+ Passengers:
+
+51670, Roxbury Crossing
+15033, State
+56815, Back Bay
+88263, Oak Grove
+11750, Back Bay
+70482, Back Bay
+11704, Stony Brook
+46752, Community College
+51270, Jackson Square
+43104, Chinatown
+========================
+
+-----------------------
+Haymarket
+ Passengers:
+
+91390, Jackson Square
+89188, Back Bay
+99038, Chinatown
+46449, Back Bay
+73423, Tufts Medical Center
+02839, Forest Hills
+14558, Tufts Medical Center
+========================
+
+-----------------------
+State
+ Passengers:
+
+61478, Downtown Crossing
+13656, North Station
+30666, Maiden Center
+40805, Wellington
+43056, Downtown Crossing
+========================
+
+-----------------------
+Downtown Crossing
+ Passengers:
+
+87759, Oak Grove
+24426, Jackson Square
+83229, Sullivan Square
+99451, Chinatown
+71510, Chinatown
+59068, Stony Brook
+========================
+
+-----------------------
+Chinatown
+ Passengers:
+
+74708, Jackson Square
+96953, Assembly
+42588, Jackson Square
+========================
+
+-----------------------
+Tufts Medical Center
+ Passengers:
+
+18873, Downtown Crossing
+51401, Chinatown
+02150, Green Street
+59450, Chinatown
+50465, Chinatown
+========================
+
+-----------------------
+Back Bay
+ Passengers:
+
+08179, Tufts Medical Center
+95824, Tufts Medical Center
+93813, Chinatown
+47083, Forest Hills
+01378, Forest Hills
+47996, Forest Hills
+05000, Massachusetts Avenue
+67861, Maiden Center
+========================
+
+-----------------------
+Massachusetts Avenue
+ Passengers:
+
+76970, Sullivan Square
+62983, Tufts Medical Center
+63380, Haymarket
+86475, Downtown Crossing
+========================
+
+-----------------------
+Ruggles
+ Passengers:
+
+39814, North Station
+85030, Tufts Medical Center
+19463, Downtown Crossing
+91893, Tufts Medical Center
+54608, Jackson Square
+80356, Massachusetts Avenue
+64856, Tufts Medical Center
+07760, Assembly
+60385, Green Street
+39167, State
+========================
+
+-----------------------
+Roxbury Crossing
+ Passengers:
+
+None
+========================
+
+-----------------------
+Jackson Square
+ Passengers:
+
+26842, Sullivan Square
+80180, Downtown Crossing
+========================
+
+-----------------------
+Stony Brook
+ Passengers:
+
+89997, Forest Hills
+22819, Community College
+24371, Assembly
+========================
+
+-----------------------
+Green Street
+ Passengers:
+
+26954, Massachusetts Avenue
+62314, Jackson Square
+42018, Tufts Medical Center
+========================
+
+-----------------------
+Forest Hills
+ Passengers:
+
+71673, Jackson Square
+48814, Downtown Crossing
+48804, Maiden Center
+23373, State
+71900, Back Bay
+87449, Community College
+71320, Stony Brook
+66937, Community College
+99168, Ruggles
+47447, Haymarket
+56060, Assembly
+42680, Tufts Medical Center
+32495, Chinatown
+64045, Ruggles
+78677, Roxbury Crossing
+76392, Assembly
+68765, Community College
+30149, Haymarket
+49890, Community College
+63953, Downtown Crossing
+82755, Haymarket
+67757, Assembly
+91545, Massachusetts Avenue
+61924, Massachusetts Avenue
+89453, Ruggles
+87443, Sullivan Square
 ========================
 
 

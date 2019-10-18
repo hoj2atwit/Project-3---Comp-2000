@@ -6,6 +6,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 	private static final int DEFAULT_CAPACITY = 10;
 	private int frontIndex;
 	private int backIndex;
+	private int numElements;
 	
 	/**
 	 * Constructor for capacity input; sets queue capacity to input
@@ -16,6 +17,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 		queueArray = (T[])new Object[this.capacity];
 		frontIndex = 0;
 		backIndex = this.capacity-1;
+		numElements = 0;
 	}
 	
 	/**
@@ -32,9 +34,11 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 	public void enqueue(T newEntry) {
 		backIndex = (backIndex + 1) % capacity;
 		queueArray[backIndex] = newEntry;
-		if(backIndex >= capacity-1) {
-			ensureCapacity();
-		}
+		//if(backIndex >= capacity-1) {
+		//	ensureCapacity();
+		//}
+		numElements++;
+		ensureCapacity();
 	}
 
 	/**
@@ -53,6 +57,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 			frontIndex = 0; 
 			backIndex = capacity - 1;
 		}
+		numElements--;
 		return output;
 	}
 
@@ -96,15 +101,17 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 	 * Doubles capacity when full
 	 */
 	private void ensureCapacity() {
-		capacity *= 2;
-		T[]temp = (T[]) new Object[capacity];
-		int size = (backIndex + capacity - frontIndex + 1)%capacity;
-		for (int i = 0; i < size; i++) {
-			temp[i] = queueArray[(frontIndex + i)%capacity];
+		if (numElements == capacity) {
+			int oldCapacity = capacity;
+			capacity *= 2;
+			T[] temp = (T[]) new Object[capacity];
+			for (int i = 0; i < oldCapacity; i++) {
+				temp[i] = queueArray[(frontIndex + i)%oldCapacity];
+			}
 			queueArray = temp;
+			frontIndex = 0;
+			backIndex = oldCapacity - 1;
 		}
-		frontIndex = 0;
-		backIndex = size-1;
 	}
 
 }

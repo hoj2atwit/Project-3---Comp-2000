@@ -160,7 +160,7 @@ public class Train {
 			s += String.format("     %s", front);
 			passengers.enqueue(front);
 			passengers.dequeue();
-			while(passengers.getFront() != front) {
+			while(passengers.getFront() != front && !passengers.isEmpty()) {
 				s += String.format("     %s", passengers.getFront());
 				passengers.enqueue(passengers.dequeue());
 			}
